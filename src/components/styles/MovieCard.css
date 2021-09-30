@@ -5,28 +5,15 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #dae6ed;
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.main{
-   border-radius:  20px; 
-   overflow: hidden;
-   height: 530px;
-   width: 93%;
-   margin: 30px auto;
-   background-color: white;
-   box-shadow: 0px 20px 100px rgba(0,0,0,0.1);
+.movie-i{
+    width: 300px;
 }
-
-.movie-img{
-   padding: 10px 10px; 
-   position: relative;
-}
-
-
-
-
-
 
