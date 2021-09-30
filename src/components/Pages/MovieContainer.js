@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
 
-
 function MovieContainer() {
      const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
@@ -24,7 +23,7 @@ function MovieContainer() {
   
   
     return (
-        <div className="movies-container">
+        <div>
           <div>
             
            { movieCards}
