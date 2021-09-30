@@ -8,6 +8,7 @@
     font-size:  30px;
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -25,16 +26,24 @@
 
 }
 
+.ham-menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .home,
 .about,
 .contact,
 .signup{
     text-decoration: none;
-    color: antiquewhite;
-    font-size:  20px;
+    color: rgb(255, 255, 255);
+    font-size:  22px;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .signup{
