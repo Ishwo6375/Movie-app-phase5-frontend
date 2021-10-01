@@ -43,6 +43,7 @@ function DirectorContainer() {
               </div>
               <div className="content">
                 <h3>{director.name}</h3>
+                <h3>Age: {director.age}</h3>
               </div>
 
               <div className="button">
@@ -66,6 +67,7 @@ function DirectorContainer() {
               </div>
               <div className="content">
                 <h3>{actor.name}</h3>
+                 <h5>Age:{actor.age}</h5>
               </div>
             </div>
           ))}
