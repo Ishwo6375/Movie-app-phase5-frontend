@@ -18,6 +18,14 @@ function MovieContainer() {
       .then((movieData) => setMovies(movieData));
   }
 
+  function deleteMovie(movie) {
+    fetch(`${baseURL}/movies/${movie.id}`, {
+      method: "DELETE",
+    });
+    const newMovie = movies.filter((mov) => mov.id !== movie.id);
+    setMovies(newMovie);
+  }
+
   
   return (
     <>
@@ -51,6 +59,10 @@ function MovieContainer() {
                 </Link>
 
         </button>
+          <button
+                onClick={() => deleteMovie(movie)}
+                className="btn btn-danger mx-2">Del
+              </button>
       </div>
          
 
