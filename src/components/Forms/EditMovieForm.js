@@ -48,7 +48,7 @@ function EditMovieForm() {
             .then((res) => res.json())
             .then((newMovie) => {
                 setEditMovie(newMovie);
-                history.push(`/movies/{id}`)
+                history.push(`/movies/${id}`)
             })
    }
 

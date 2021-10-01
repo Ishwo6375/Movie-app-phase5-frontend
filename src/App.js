@@ -9,6 +9,7 @@ import MovieContainer from "./components/Pages/MovieContainer";
 import MovieDetails from "./components/Pages/MovieDetails";
 import DirectorContainer from "./components/Pages/DirectorContainer";
 import MovieForm from "./components/Forms/MovieForm";
+import EditMovieForm from "./components/Forms/EditMovieForm";
 
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/movie/add">
          <MovieForm />
+          </Route>
+           <Route exact path="/movie/edit/:id">
+          <EditMovieForm />
           </Route>
 
         </Switch>
