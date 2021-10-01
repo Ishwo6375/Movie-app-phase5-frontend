@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../styles/MovieCard.css";
+import "../styles/MovieContainer.css";
+import { Link } from "react-router-dom";
 
 
 function MovieContainer() {
@@ -19,6 +20,7 @@ function MovieContainer() {
 
   
   return (
+    <>
      <div className="main">
        {movies.map((movie,idx)=> (
     <div className=" box">
@@ -33,11 +35,18 @@ function MovieContainer() {
       </div>
 
       <div className="button">
-          <button className="btn btn-secondary">
-          <a className="b1" href={movie.video_url} target="_blank">
-            watch trailer
-          </a>
+        <button className=" btn-secondary">
+               <Link  to={`/movies/${movie.id}`}>
+                  Movie Details
+                </Link>
+
         </button>
+      </div>
+         
+
+         <br />
+      <div>
+
       </div>
       
     </div>
@@ -45,6 +54,7 @@ function MovieContainer() {
        ))}
    
     </div>
+    </>
   );
 }
 

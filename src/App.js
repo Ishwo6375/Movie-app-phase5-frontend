@@ -7,6 +7,7 @@ import Home from "./components/Pages/Home";
 
 import Contact from "./components/Pages/Contact";
 import MovieContainer from "./components/Pages/MovieContainer";
+import MovieDetails from "./components/Pages/MovieDetails";
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/movies">
           <MovieContainer />
+          </Route>
+           <Route exact path="/movies/:id">
+         <MovieDetails />
           </Route>
 
         </Switch>
