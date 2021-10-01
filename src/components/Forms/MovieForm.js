@@ -51,7 +51,7 @@ function MovieForm() {
   }
 
   return (
-    <div className="form-container">
+    <div >
       <div>
         <h2>Enter Movie Details</h2>
         <form className="form-control my-5 py-5">
@@ -60,7 +60,7 @@ function MovieForm() {
           </label>
           <div>
             <input
-              className="input"
+        
               type="text"
               placeholder="Enter Movie title..."
               name="title"
@@ -84,6 +84,7 @@ function MovieForm() {
               required
             />
           </div>
+          
           <label>
             <h4>Language</h4>
           </label>
@@ -126,6 +127,7 @@ function MovieForm() {
               onChange={onHandlechange}
               required
             />
+           
 
             <label>
               <h4>Movie Image</h4>

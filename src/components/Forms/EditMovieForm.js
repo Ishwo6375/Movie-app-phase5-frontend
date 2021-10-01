@@ -54,7 +54,7 @@ function EditMovieForm() {
 
 
     return (
-       <div className="form-container">
+       <div>
       <div>
         <h2>Enter Movie Details</h2>
         <form className="form-control my-5 py-5" onSubmit={onSubmitEditMovie}>
@@ -63,7 +63,7 @@ function EditMovieForm() {
           </label>
           <div>
             <input
-              className="input"
+             
               type="text"
               placeholder="Enter new Movie title..."
               name="title"
@@ -90,7 +90,7 @@ function EditMovieForm() {
           <label>
             <h4>Language</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="text"
@@ -104,7 +104,7 @@ function EditMovieForm() {
           <label>
             <h4>Runtime</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="text"
@@ -119,7 +119,7 @@ function EditMovieForm() {
           <label>
             <h4>Rating</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="number"

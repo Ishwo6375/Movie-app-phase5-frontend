@@ -21,7 +21,7 @@ function Navbar() {
           <li>All Movies</li>
         </Link>
         <Link to="/directors" className="contact">
-         <li>Directors</li>
+         <li>Top Rated</li>
         </Link>
          <Link to="/movie/add" className="contact">
          <li>New Movies</li>
