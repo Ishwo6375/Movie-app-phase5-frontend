@@ -8,6 +8,7 @@ import Home from "./components/Pages/Home";
 import Contact from "./components/Pages/Contact";
 import MovieContainer from "./components/Pages/MovieContainer";
 import MovieDetails from "./components/Pages/MovieDetails";
+import DirectorContainer from "./components/Pages/DirectorContainer";
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           </Route>
            <Route exact path="/movies/:id">
          <MovieDetails />
+          </Route>
+           <Route exact path="/directors">
+         <DirectorContainer />
           </Route>
 
         </Switch>

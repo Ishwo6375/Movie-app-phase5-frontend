@@ -15,15 +15,16 @@ function Navbar() {
         <Link to="/" className="home">
           <li>Home</li>
         </Link>
-     
-        <Link to="/contact" className="contact">
-          <li>Contact Us</li>
-        </Link>
+
+       
         <Link to="/movies" className="contact">
           <li>All Movies</li>
         </Link>
-        <Link to="/login" className="signup">
-          <li>Login</li>
+        <Link to="/directors" className="contact">
+         <li>Directors</li>
+        </Link>
+         <Link to="/contact" className="contact">
+          <li>Contact Us</li>
         </Link>
       </ul>
       <button

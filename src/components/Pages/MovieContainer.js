@@ -21,9 +21,19 @@ function MovieContainer() {
   
   return (
     <>
+     <div className="movie-div">
+              <h1>Know Famous directors
+                <br />
+                 Top Listed Director of 2021
+
+                 <br />
+                  
+                  Check out Directors
+              </h1>
+            </div>
      <div className="main">
        {movies.map((movie,idx)=> (
-    <div className=" box">
+    <div key={idx} className=" box">
      
       <div className="box-img">
            <img  alt={"movie-img"} src={movie.image} />
