@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import MovieCard from "./MovieCard";
+import "../styles/MovieCard.css";
+
 
 function MovieContainer() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
@@ -16,13 +17,33 @@ function MovieContainer() {
       .then((movieData) => setMovies(movieData));
   }
 
-  const movieCards = movies.map((movie, idx) => (
-    <MovieCard key={idx} movie={movie} />
-  ));
-
+  
   return (
-    <div>
-      <div>{movieCards}</div>
+     <div className="main">
+       {movies.map((movie,idx)=> (
+    <div className=" box">
+     
+      <div className="box-img">
+           <img  alt={"movie-img"} src={movie.image} />
+      </div>
+      <div className="content">
+    
+         <h3>{movie.title}</h3>
+         <p>IMDB Rating:{movie.rating}</p>
+      </div>
+
+      <div className="button">
+          <button className="btn btn-secondary">
+          <a className="b1" href={movie.video_url} target="_blank">
+            watch trailer
+          </a>
+        </button>
+      </div>
+      
+    </div>
+
+       ))}
+   
     </div>
   );
 }
