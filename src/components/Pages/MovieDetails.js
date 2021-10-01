@@ -29,6 +29,7 @@ function MovieDetails() {
                 <h5>Run Time: {movie.runtime}</h5>
                 <h5>Genre: {movie.genre}</h5>
                 <h5>Language: {movie.language}</h5>
+               
                 <div className="button">
             <button className="btn btn-secondary">
           <a className="b1" href={movie.video_url} target="_blank">
@@ -36,8 +37,9 @@ function MovieDetails() {
           </a>
         </button>
                 </div>
-               </>
+      </>
            )}
+         
        </div>
     </div>
   );

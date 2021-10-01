@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./components/NavBar/Navbar";
 import Home from "./components/Pages/Home";
-
 import Contact from "./components/Pages/Contact";
 import MovieContainer from "./components/Pages/MovieContainer";
 import MovieDetails from "./components/Pages/MovieDetails";
 import DirectorContainer from "./components/Pages/DirectorContainer";
+import MovieForm from "./components/Forms/MovieForm";
 
 
 function App() {
@@ -34,6 +34,9 @@ function App() {
           </Route>
            <Route exact path="/directors">
          <DirectorContainer />
+          </Route>
+          <Route exact path="/movie/add">
+         <MovieForm />
           </Route>
 
         </Switch>

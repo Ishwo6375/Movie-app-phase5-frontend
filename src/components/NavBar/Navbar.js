@@ -23,6 +23,9 @@ function Navbar() {
         <Link to="/directors" className="contact">
          <li>Directors</li>
         </Link>
+         <Link to="/movie/add" className="contact">
+         <li>New Movies</li>
+        </Link>
          <Link to="/contact" className="contact">
           <li>Contact Us</li>
         </Link>

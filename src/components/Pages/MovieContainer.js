@@ -22,13 +22,13 @@ function MovieContainer() {
   return (
     <>
      <div className="movie-div">
-              <h1>Know Famous directors
+              <h1>Watch Movie Trailers
                 <br />
-                 Top Listed Director of 2021
+                 Exclusively on our 
 
                  <br />
                   
-                  Check out Directors
+                  WEBSITE...
               </h1>
             </div>
      <div className="main">

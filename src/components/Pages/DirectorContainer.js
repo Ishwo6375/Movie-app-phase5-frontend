@@ -39,14 +39,14 @@ function DirectorContainer() {
          <h3>{director.name}</h3>
       </div>
 
-      {/* <div className="button">
+      <div className="button">
         <button className=" btn-secondary">
-               <Link  to={`/directors/${movie.id}`}>
-                  Movie Details
+               <Link  to={`/directors/${director.id}`}>
+                  View Profile
                 </Link>
 
         </button>
-      </div> */}
+      </div>
          
 
          <br />
