@@ -21,6 +21,7 @@ function DirectorContainer() {
   }, []);
 
   return (
+    <>
     <div>
       <div className="director-div">
         <h1>
@@ -33,9 +34,9 @@ function DirectorContainer() {
       </div>
       <>
         <div>
-          <h2 className="dir-heading">Top Directors 2021</h2>
         </div>
         <div className="main">
+          <h2 className="dir-heading">Top Directors 2021</h2>
           {directors.map((director, idx) => (
             <div key={idx} className=" box">
               <div className="box-img">
@@ -55,11 +56,11 @@ function DirectorContainer() {
               <br />
             </div>
           ))}
-        </div>
-        <div className="dir-heading">
-          <h1>Most Searched Actors 2021</h1>
+        </div >
+        <div className="actor-div">
         </div>
         <div className="main">
+          <h1 className="dir-heading">Most Searched Actors 2021</h1>
           {actors.map((actor, idx) => (
             <div key={idx} className=" box">
               <div className="box-img">
@@ -74,6 +75,7 @@ function DirectorContainer() {
         </div>
       </>
     </div>
+    </>
   );
 }
 
