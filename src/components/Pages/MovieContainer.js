@@ -1,36 +1,30 @@
-
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
-
 function MovieContainer() {
-     const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+  const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
-     const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]);
 
-     useEffect(() => {
+  useEffect(() => {
     showMovies();
   }, []);
 
   function showMovies() {
     fetch(`${baseURL}/movies`)
       .then((res) => res.json())
-      .then((movieData) => setMovies(movieData)); 
+      .then((movieData) => setMovies(movieData));
   }
 
-  
-   const movieCards = movies.map((movie, idx) => <MovieCard key={idx} movie={movie}/>)
-  
-  
-    return (
-        <div>
-          <div>
-            
-           { movieCards}
-          </div>
-            
-        </div>
-    )
+  const movieCards = movies.map((movie, idx) => (
+    <MovieCard key={idx} movie={movie} />
+  ));
+
+  return (
+    <div>
+      <div>{movieCards}</div>
+    </div>
+  );
 }
 
-export default MovieContainer
+export default MovieContainer;

@@ -3,19 +3,24 @@ import "../styles/MovieCard.css";
 
 function MovieCard({ movie }) {
   return (
-    <div >
-      <div className="container">
-          <h3>{movie.title}</h3>
-        <img className="movie-i" alt={"movie-img"} src={movie.image} />
-        <div className="movie-content">
-            <div>Rating: {movie.rating}</div>
-        </div>
-        <div>
-            <button className="btn btn-secondary">
-                 <a herf={movie.video_url}>Watch Trailer</a>
-            </button>
-        </div>
+    <div className="main">
+    <div className=" box">
+      <div className="box-img">
+           <img  alt={"movie-img"} src={movie.image} />
       </div>
+      <div className="content">
+         <h3>{movie.title}</h3>
+         <p>IMDB Rating:{movie.rating}</p>
+      </div>
+
+      <div className="button">
+          <button className="btn btn-secondary">
+          <a className="b1" href={movie.video_url} target="_blank">
+            watch trailer
+          </a>
+        </button>
+      </div>
+    </div>
     </div>
   );
 }
