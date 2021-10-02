@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./components/NavBar/Navbar";
@@ -11,9 +9,7 @@ import DirectorContainer from "./components/Pages/DirectorContainer";
 import MovieForm from "./components/Forms/MovieForm";
 import EditMovieForm from "./components/Forms/EditMovieForm";
 
-
 function App() {
-  
   return (
     <Router>
       <div>
@@ -23,26 +19,25 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-        
+
           <Route exact path="/contact">
-          <Contact />
+            <Contact />
           </Route>
           <Route exact path="/movies">
-          <MovieContainer />
+            <MovieContainer />
           </Route>
-           <Route exact path="/movies/:id">
-         <MovieDetails />
+          <Route exact path="/movies/:id">
+            <MovieDetails />
           </Route>
-           <Route exact path="/directors">
-         <DirectorContainer />
+          <Route exact path="/directors">
+            <DirectorContainer />
           </Route>
           <Route exact path="/movie/add">
-         <MovieForm />
+            <MovieForm />
           </Route>
-           <Route exact path="/movie/edit/:id">
-          <EditMovieForm />
+          <Route exact path="/movie/edit/:id">
+            <EditMovieForm />
           </Route>
-
         </Switch>
       </div>
     </Router>

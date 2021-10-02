@@ -58,9 +58,9 @@ function DirectorContainer() {
           ))}
         </div >
         <div className="actor-div">
+          <h1 className="dir-heading">Most Searched Actors 2021</h1>
         </div>
         <div className="main">
-          <h1 className="dir-heading">Most Searched Actors 2021</h1>
           {actors.map((actor, idx) => (
             <div key={idx} className=" box">
               <div className="box-img">

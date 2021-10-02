@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main_card {
+	color: #fff;
+	width: 1060px;
+	height: 800px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 770px;
+	background: #373b3b; 
+	background: -webkit-linear-gradient(to right, #1fdf32, #0f35b1);
+	background: -webkit-gradient(linear, left top, right top, from(#92FE9D), to(#00C9FF));
+	background: -webkit-linear-gradient(left, #3b423b, #1a3036);
+	background: -o-linear-gradient(left, hsl(204, 84%, 38%), #bde412);
+	background: linear-gradient(to right, #23bd32, #0f11bd); 
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.3); 
+	        box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.card_left {
+	width: 90%;
+}
+
+.card_datails {
+	width: 90%;
+	padding: 30px;
+	margin-top: -25px;
+}
+.card_datails  h1 {
+	font-size: 30px;
+}
+.card_right img {
+	height: 390px;
+	border-radius: 2px;
+}
+.card_right {
+	border-radius: 2px;
+}
+
+.card_cat {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.PG, .genre, .time {
+	color: fff;
+    margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.PG {
+	background: #0ad4b3;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	        box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	
+}
+
+.disc {
+	font-weight: 500;
+    padding-left: 50px;
+    font-size: 20px;
+	line-height: 27px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.movie-des{
+    text-align: center;
+   font-family: 'Roboto Slab', serif;
+}
+
+.social-btn {
+	margin-left: -10px;
+}
+
+.btn{
+    margin-left: 30px;
+    background: cornflowerblue;
+}
+
+a:hover{
+    color: greenyellow;
+    
+}
+
+
+
+
+
+
+
+
