@@ -8,18 +8,17 @@ body {
 .main_card {
 	color: #fff;
 	width: 1060px;
-	height: 800px;
+	height: 930px;
 	margin: 50px auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	max-width: 770px;
 	background: #373b3b; 
-	background: -webkit-linear-gradient(to right, #1fdf32, #0f35b1);
-	background: -webkit-gradient(linear, left top, right top, from(#92FE9D), to(#00C9FF));
-	background: -webkit-linear-gradient(left, #3b423b, #1a3036);
-	background: -o-linear-gradient(left, hsl(204, 84%, 38%), #bde412);
-	background: linear-gradient(to right, #23bd32, #0f11bd); 
+	 background: linear-gradient(rgba(11, 99, 231, 0.6), rgba(1, 2, 2, 0.9)),
+    url("http://wallup.net/wp-content/uploads/2016/03/09/35648-Frozen_movie-Princess_Anna-Princess_Elsa-Olaf-movies-Kristoff_Frozen.jpg");
+    background-size: cover;
+  background-position: center;
 	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.3); 
 	        box-shadow: 0 0 40px rgba(0,0,0,0.3);
 }
@@ -37,7 +36,8 @@ body {
 	font-size: 30px;
 }
 .card_right img {
-	height: 390px;
+	height: 490px;
+    width: 380px;
 	border-radius: 2px;
 }
 .card_right {
@@ -59,11 +59,13 @@ body {
     margin: 10px;
 	padding: 10px;
 	font-weight: bold;
+    font-size: 20px;
 	border-radius: 15px;
+    color: rgb(215, 228, 196);
 }
 
 .PG {
-	background: #0ad4b3;
+	background: #3b3b2f;
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
 	        box-shadow: 0 0 50px rgba(0,0,0,0.1);
 	
@@ -97,6 +99,13 @@ body {
 a:hover{
     color: greenyellow;
     
+}
+
+.movie-title{
+    margin-top: 20px;
+    text-align: center;
+     font-family: 'Roboto Slab', serif;
+     color: rgb(182, 233, 15);
 }
 
 

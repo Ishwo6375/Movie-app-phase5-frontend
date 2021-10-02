@@ -40,7 +40,7 @@ function MovieDetails() {
               <div className="main_card">
                 <div className="card_left">
                   <div className="card_details">
-                    <h1>{movie.title}</h1>
+                    <h1 className="movie-title">{movie.title}</h1>
                     <div className="card_cat">
                       <p className="PG">Rating:{movie.rating}</p>
                       <p className="genre">Genre: {movie.genre} </p>
