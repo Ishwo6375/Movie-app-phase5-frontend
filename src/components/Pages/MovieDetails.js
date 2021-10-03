@@ -2,12 +2,14 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../styles/MovieDetails.css";
+import ReviewCard from "./ReviewCard";
 
 function MovieDetails() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
   const [movie, setMovie] = useState([]);
-
+  
   const { id } = useParams();
+
 
   useEffect(() => {
     fetch(`${baseURL}/movies/${id}`)
@@ -45,21 +47,28 @@ function MovieDetails() {
                       <p className="PG">Rating:{movie.rating}</p>
                       <p className="genre">Genre: {movie.genre} </p>
                       <p className="time">Runtime:{movie.runtime} </p>
+                       
 
                     </div>
                     <h4 className="movie-des">Movie Description</h4>
                     <br />
                     <p className="disc">{movie.description}</p>
                   </div>
+
+                
                   
                   <div className="card_right">
                     <div className="img_container">
                         <img alt={"movie-img"} src={movie.image} />
               <button className="btn btn-secondary">
+                 
+
                 <a className="b1" href={movie.video_url} target="_blank">
                   Watch Trailer
                 </a>
               </button>
+                <p className="time mx-5">Language:{movie.language} </p>
+             
                     </div>
                     <br />
                     <div >
@@ -75,12 +84,13 @@ function MovieDetails() {
             </div>
               </div>
             </div>
-             
-                  
-
-           
+            <ReviewCard reviews={movie.reviews} id={id} />
+        
           </>
         )}
+        <div>
+        
+        </div>
       </div>
     </div>
   );
