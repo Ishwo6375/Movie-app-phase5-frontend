@@ -83,6 +83,12 @@ function DirectorContainer() {
                 <h3>{actor.name}</h3>
                  <h5>Age:{actor.age}</h5>
               </div>
+              <div className="button">
+                <button className=" btn-secondary">
+                  <Link to={`/actors/${actor.id}`}>View Profile</Link>
+                </button>
+              </div>
+              
             </div>
           ))}
         </div>

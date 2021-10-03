@@ -9,6 +9,7 @@ import DirectorContainer from "./components/Pages/DirectorContainer";
 import MovieForm from "./components/Forms/MovieForm";
 import EditMovieForm from "./components/Forms/EditMovieForm";
 import DirectorDetails from "./components/Pages/DirectorDetails";
+import ActorDetails from "./components/Pages/ActorDetails";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route exact path="/directors/:id">
             <DirectorDetails />
+          </Route>
+          <Route exact path="/actors/:id">
+           <ActorDetails />
           </Route>
           <Route exact path="/movie/add">
             <MovieForm />
