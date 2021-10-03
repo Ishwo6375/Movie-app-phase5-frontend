@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body{
+ font-family: 'Gemunu Libre', sans-serif;
+ font-size: 16px;
+ color:#333;
+
+}
+
+.box-1{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 50px 10%;
+    box-shadow: 0 27px 87px rgba(0,0,0,0.37) ;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.dir-text{
+    width: 55%;
+    float: left;
+    padding-left: 55px;
+
+}
+
+.dir-image{
+    float: left;
+    width: 27%;
+   box-shadow: 0 27px 87px rgba(0,0,0,0.37) ;
+}
+
+.box-text{
+    width: 55%;
+    float: left;
+    padding-left: 70px 70px 70px 35px ;
+    text-align: center;
+    
+}
+
+.box-text h1{
+ font-size: 48px;
+ font-weight: bold;
+ color: #2e2e2e;
+ padding: 50px;
+ margin-bottom: 45px;
+ margin-left: 30px;
+
+}
+
+.box-text h4 {
+   font-size: 34px; 
+   font-weight: 400;
+   color: #2e2e2e;
+   line-height: 30px;
+   letter-spacing: 0.25px;
+   margin-bottom: 15px;
+   margin-left: 30px;
+}
+
+.span-3{
+    color: rgb(151, 233, 0);
+    padding: 10px;
+    font-weight: bold;
+    line-height: 70px;
+    
+}
+
+.span-4{
+    color: rgb(232, 243, 23);
+    padding: 10px;
+    line-height: 90px;
+}

@@ -43,12 +43,12 @@ function ReviewCard({ reviews, id }) {
   }
 
   return (
-    <div>
-      <div>
+    <div className="review-body">
+      <div >
         <h1 className="review-head">Review Movie</h1>
 
         <br />
-        <div>
+        <div >
          
           <ReviewForm />
            <h4 className="review-head">Most Recent Reviews</h4>

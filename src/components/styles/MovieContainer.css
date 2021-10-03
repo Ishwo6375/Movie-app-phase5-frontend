@@ -15,7 +15,12 @@
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   height: 100vh;
+   
+   background: linear-gradient(rgba(3, 4, 7, 0.5), rgba(1, 2, 2, 0.5)),
+    url("https://cdn.wallpapersafari.com/5/17/7RIkl0.jpg");
+    background-size: cover;
+  background-position: center;
+  
    
 }
 
@@ -110,7 +115,7 @@ div.box{
 
 .director-div{
     display: flex;
-  padding: 230px;
+  padding: 120px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -128,7 +133,7 @@ div.box{
 
 .movie-div{
     display: flex;
-  padding: 330px;
+  padding: 190px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -139,8 +144,8 @@ div.box{
   font-family: "Exo 2", sans-serif;
   background: linear-gradient(rgba(38, 42, 40, 0.1), rgb(37, 34, 34, 1)),
     url("http://www.designbolts.com/wp-content/uploads/2017/04/spiderman_homecoming-movie-2017-wallpaper-hd-1.jpg");
-  background-size: cover;
-  background-position: center; 
+ 
+  background-position: center;
 }
 
 
@@ -149,12 +154,7 @@ div.box{
     background-color: black;
 }
 
-.main{
-    background: linear-gradient(rgba(3, 4, 7, 0.5), rgba(1, 2, 2, 0.5)),
-    url("https://cdn.wallpapersafari.com/5/17/7RIkl0.jpg");
-    background-size: cover;
-  background-position: center;
-}
+
 
 .dir-heading{
     color: rgb(190, 231, 6);

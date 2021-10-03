@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import DirectorMovieCard from "./DirectorMovieCard";
+import "../styles/DirectorDetails.css";
 
 function DirectorDetails() {
      const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
@@ -19,7 +20,7 @@ function DirectorDetails() {
         <div>
            {director && (
                <>
-               <h1>{director.name}</h1>
+               {/* <h1>{director.name}</h1>
                <div className="img_container">
                      <img className="dir-image" alt={"director-img"} src={director.image} />
                </div>
@@ -30,6 +31,21 @@ function DirectorDetails() {
 
                <div >
                    <DirectorMovieCard movies={director.movies} id={id} />
+               </div> */}
+
+               <div className="wrapper-1">
+                   <div className="box-1">
+                       <img className="dir-image" alt={"director-img"} src={director.image} />
+                   <div className="box-text">
+                        <h1>NAME: <span className="span-2">{director.name}</span></h1>
+                        <h4>BIO: <span className="span-3">{director.bio}</span></h4>
+                        <h4>AGE: <span className="span-4">{director.age}</span></h4>
+                   </div>
+
+                   </div>
+                        <div clasName="social">
+                             <DirectorMovieCard movies={director.movies} id={id} />
+                        </div>
                </div>
                </>
 

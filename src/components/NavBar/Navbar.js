@@ -18,7 +18,7 @@ function Navbar() {
 
        
         <Link to="/movies" className="contact">
-          <li>All Movies</li>
+          <li> Movies</li>
         </Link>
         <Link to="/directors" className="contact">
          <li>Top Rated</li>

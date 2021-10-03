@@ -18,13 +18,13 @@
 
 .review-container{
   text-align: center;
-  color: rgb(49, 42, 47);
+  color: rgb(251, 250, 251);
   padding: 20px;
   margin: 70px;
   margin-left: 800px;
   border: 1px solid transparent;
   max-width: 500px;
-  background: linear-gradient(rgba(11, 152, 218, 0.5), rgba(37, 197, 176, 0.5));
+  background: linear-gradient(rgba(56, 61, 61, 0.5), rgba(55, 44, 211, 0.5));
 
 }
 
@@ -33,7 +33,7 @@
     padding: 20px;
     font-size: 35px;
     margin-top: 20px;
-    color: rgb(63, 55, 51);
+    color: rgb(56, 51, 48);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

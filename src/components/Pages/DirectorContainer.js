@@ -37,8 +37,8 @@ function DirectorContainer() {
 
           <span className="span-2">Actors</span>
           <br />
-          <span className="span-1">Top Listed Directors of 2021</span><br />
-           <span className="span-1">Top Listed Actors of 2021</span>
+          <span className="span-1">Top Listed Directors of <span className="span-2">2021</span></span><br />
+           <span className="span-1">Top Listed Actors of <span className="span-2">2021</span></span>
           <br />
          
         </h1>

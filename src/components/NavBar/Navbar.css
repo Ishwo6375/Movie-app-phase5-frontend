@@ -6,6 +6,7 @@
 
 .logo{
     font-size:  30px;
+    font-weight: bold;
 }
 
 
@@ -14,8 +15,8 @@
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: #00828c;
-    color: white;
+    background: linear-gradient(rgba(31, 12, 202, 0.6), rgba(29, 23, 39, 0.5));
+    color: rgb(251, 245, 245);
 }
 
 .nav-Links{
