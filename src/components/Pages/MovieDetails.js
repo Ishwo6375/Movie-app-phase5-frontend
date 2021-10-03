@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 import "../styles/MovieDetails.css";
 import ReviewCard from "./ReviewCard";
 
+
+
 function MovieDetails() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
   const [movie, setMovie] = useState([]);
   
-  const { id } = useParams();
 
+
+  const { id } = useParams();
 
   useEffect(() => {
     fetch(`${baseURL}/movies/${id}`)
@@ -19,24 +22,10 @@ function MovieDetails() {
   }, []);
 
   return (
-    <div >
+    <div>
       <div>
         {movie && (
           <>
-            {/* <h1>{movie.title}</h1>
-            <img alt={"movie-img"} src={movie.image} />
-            <h4>Description: {movie.description}</h4>
-            <h5>Run Time: {movie.runtime}</h5>
-            <h5>Genre: {movie.genre}</h5>
-            <h5>Language: {movie.language}</h5> */}
-
-            {/* <div className="button">
-              <button className="btn btn-secondary">
-                <a className="b1" href={movie.video_url} target="_blank">
-                  Watch Trailer
-                </a>
-              </button>
-            </div> */}
 
             <div className="wrapper">
               <div className="main_card">
@@ -47,50 +36,45 @@ function MovieDetails() {
                       <p className="PG">Rating:{movie.rating}</p>
                       <p className="genre">Genre: {movie.genre} </p>
                       <p className="time">Runtime:{movie.runtime} </p>
-                       
-
                     </div>
                     <h4 className="movie-des">Movie Description</h4>
                     <br />
                     <p className="disc">{movie.description}</p>
                   </div>
 
-                
-                  
                   <div className="card_right">
                     <div className="img_container">
-                        <img alt={"movie-img"} src={movie.image} />
-              <button className="btn btn-secondary">
-                 
-
-                <a className="b1" href={movie.video_url} target="_blank">
-                  Watch Trailer
-                </a>
-              </button>
-                <p className="time mx-5">Language:{movie.language} </p>
-             
+                      <img alt={"movie-img"} src={movie.image} />
+                      <button className="btn btn-secondary">
+                        <a
+                          className="b1"
+                          href={movie.video_url}
+                        >
+                          Watch Trailer
+                        </a>
+                      </button>
+                      <p className="time mx-5">Language:{movie.language} </p>
                     </div>
                     <br />
-                    <div >
-            </div>
-                  
                   </div>
                 </div>
-               <div>
-                <br />
-                 <Link
-                className="btn btn-primary mx-3"
-                to={`/movie/edit/${movie.id}`}> Edit</Link>
-            </div>
+                <div>
+                  <br />
+                  <Link
+                    className="btn btn-primary mx-3"
+                    to={`/movie/edit/${movie.id}`}
+                  >
+                    Edit
+                  </Link>
+                </div>
               </div>
             </div>
-            <ReviewCard reviews={movie.reviews} id={id} />
-        
+            <br />
+            <div>
+              <ReviewCard reviews={movie.reviews} id={id} />
+            </div>
           </>
         )}
-        <div>
-        
-        </div>
       </div>
     </div>
   );

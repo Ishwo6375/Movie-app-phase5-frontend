@@ -1,17 +1,19 @@
-import React from "react";
+
 import React, { useState } from "react";
-import { useHistory } from "react-router";
 
 function ReviewForm() {
-  const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
-  const history = useHistory();
-  const [reviewFrom, setReviewForm] = useState({
+    const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+ 
+  const [reviewForm, setReviewForm] = useState({
     comment: "",
     rating: "",
     username: "",
     movie_id: "",
   });
 
+
+
+ 
   function onHandleChange(e) {
     setReviewForm({ ...reviewForm, [e.target.name]: e.target.value });
   }
@@ -24,10 +26,10 @@ function ReviewForm() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        comment: reviewFrom.comment,
-        rating: reviewFrom.rating,
-        username: reviewFrom.username,
-        movie_id: reviewFrom.movie_id,
+        comment: reviewForm.comment,
+        rating: reviewForm.rating,
+        username: reviewForm.username,
+        movie_id: reviewForm.movie_id,
       }),
     };
 
@@ -36,23 +38,25 @@ function ReviewForm() {
       .then((newReview) => {
         const newReviews = [reviewForm, newReview];
         setReviewForm(newReviews);
-        history.push(`/movies/${movie.id}`);
+      
       });
   }
 
+  
   return (
     <div className="container-1">
       <div>
+       
         <h2>Add Review</h2>
 
-        <form className="form-control">
+        <form className="form-control" >
           <div>
             <input
               className="input-1"
               type="text"
               placeholder="Add your review"
               name="comment"
-              value={reviewFrom.comment}
+              value={reviewForm.comment}
               onChange={onHandleChange}
             />
           </div>
@@ -63,7 +67,7 @@ function ReviewForm() {
               type="text"
               placeholder="Enter your username"
               name="username"
-              value={reviewFrom.username}
+              value={reviewForm.username}
               onChange={onHandleChange}
             />
           </div>
@@ -74,7 +78,7 @@ function ReviewForm() {
               type="number"
               placeholder="Rating..."
               name="rating"
-              value={reviewFrom.rating}
+              value={reviewForm.rating}
               onChange={onHandleChange}
             />
           </div>
@@ -83,12 +87,16 @@ function ReviewForm() {
             <input
               className="input-1"
               type="number"
-              placeholder=""
+              placeholder="Enter movie id"
               name="movie_id"
-              value={reviewFrom.movie_id}
+              value={reviewForm.movie_id}
               onChange={onHandleChange}
             />
           </div>
+           <br />
+
+          <button onClick={onSubmitReviews} className="btn btn-primary" >Add Review</button>
+          <br />
         </form>
       </div>
     </div>
