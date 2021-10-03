@@ -4,11 +4,11 @@ import "../styles/DirectorMovieCard.css";
 function DirectorMovieCard( {movies, id}) {
  const displayMovies =
     movies && movies.map((movie) => {
-          <div >Movie details</div>
+          
       return <div className="dir-mov" key={id} >
-            <h4 >{movie.title}</h4>
+            <h4  className="span-3">{movie.title}</h4>
                 <img className="movie-image" alt={"movie-img"} src={movie.image} />
-            <p>Rate:{movie.rating}/ 10</p>
+            <p className="span-3">Rate:{movie.rating}/ 10</p>
             <div className="card_cat">
 
             </div>
@@ -23,10 +23,14 @@ function DirectorMovieCard( {movies, id}) {
 
       
     return (
+        <>
+        <h2 className="span-5">Popular Movies</h2>
         <div>
+            
             { displayMovies }
             
         </div>
+        </>
     )
 }
 
