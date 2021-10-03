@@ -1,0 +1,17 @@
+
+
+.movie-image{
+    width: 200px;
+}
+
+.dir-mov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dir-image{
+    width: 400px;
+}
