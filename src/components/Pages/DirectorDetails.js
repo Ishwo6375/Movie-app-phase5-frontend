@@ -37,7 +37,7 @@ function DirectorDetails() {
                    <div className="box-1">
                        <img className="dir-image" alt={"director-img"} src={director.image} />
                    <div className="box-text">
-                        <h1>NAME: <span className="span-2">{director.name}</span></h1>
+                        <h1> <span className="span-2">{director.name}</span></h1>
                         <h4>BIO: <span className="span-3">{director.bio}</span></h4>
                         <h4>AGE: <span className="span-4">{director.age}</span></h4>
                    </div>

@@ -22,6 +22,8 @@ body{
     box-shadow: 0 27px 87px rgba(0,0,0,0.37) ;
     border-radius: 25px;
     overflow: hidden;
+    background: linear-gradient(rgba(113, 197, 16, 0.5), rgb(37, 34, 34, 1));
+    
 
 }
 
@@ -49,7 +51,7 @@ body{
 .box-text h1{
  font-size: 48px;
  font-weight: bold;
- color: #2e2e2e;
+ color: #f6e9e9;
  padding: 50px;
  margin-bottom: 45px;
  margin-left: 30px;
@@ -59,7 +61,7 @@ body{
 .box-text h4 {
    font-size: 34px; 
    font-weight: 400;
-   color: #2e2e2e;
+   color: #e7d20f;
    line-height: 30px;
    letter-spacing: 0.25px;
    margin-bottom: 15px;
@@ -67,7 +69,7 @@ body{
 }
 
 .span-3{
-    color: rgb(151, 233, 0);
+    color: rgb(238, 243, 230);
     padding: 10px;
     font-weight: bold;
     line-height: 70px;
@@ -75,7 +77,13 @@ body{
 }
 
 .span-4{
-    color: rgb(232, 243, 23);
+    color: rgb(237, 238, 227);
     padding: 10px;
     line-height: 90px;
+}
+
+.span-2{
+       color: rgb(250, 255, 252);
+    padding: 10px;
+    line-height: 90px; 
 }
