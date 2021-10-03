@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 *{
     margin-top: 0px;
@@ -14,6 +15,8 @@
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
+   height: 100vh;
+   
 }
 
 div.box{
@@ -122,22 +125,7 @@ div.box{
   background-position: center; 
 }
 
-.actor-div{
-    display: flex;
-  padding: 430px;
-  justify-content: center;
-  justify-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Exo 2", sans-serif;
-  background: linear-gradient(rgba(28, 188, 156, 0.5), rgba(10, 10, 10, 0.5)),
-    url("https://wallpapertag.com/wallpaper/full/d/1/3/946175-top-movie-poster-wallpaper-1920x1080-1080p.jpg");
-  background-size: cover;
-  background-position: center; 
-}
+
 .movie-div{
     display: flex;
   padding: 330px;
@@ -169,13 +157,35 @@ div.box{
 }
 
 .dir-heading{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(190, 231, 6);
+    font-size: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
 }
 
 .img_container{
    padding: 30px;
    margin: 30px;
+}
+
+.head-1{
+    color: white;
+    font-weight: bold;
+}
+
+.span-2{
+    color: rgb(162, 230, 4);
+    font-size: 60px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.span-1{
+    color: white;
+    font-size: 39px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.top-rated-heading{
+   margin-left: 700px; 
 }
 
 

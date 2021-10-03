@@ -24,13 +24,26 @@ function DirectorContainer() {
     <>
     <div>
       <div className="director-div">
-        <h1>
-          Know Famous directors
+        <div >
+        <h1 className="top-rated-heading">
           <br />
-          Top Listed Director of 2021
           <br />
-          Check out Directors
+          <span className="span-1">Know Top Rated</span>
+            <br />
+           <span className="span-2">Directors</span>
+          <br />
+          And 
+          <br />
+
+          <span className="span-2">Actors</span>
+          <br />
+          <span className="span-1">Top Listed Directors of 2021</span><br />
+           <span className="span-1">Top Listed Actors of 2021</span>
+          <br />
+         
         </h1>
+
+        </div>
       </div>
       <>
         <div>
@@ -58,9 +71,9 @@ function DirectorContainer() {
           ))}
         </div >
         <div className="actor-div">
-          <h1 className="dir-heading">Most Searched Actors 2021</h1>
         </div>
         <div className="main">
+          <h1 className="dir-heading">Most Searched Actors 2021</h1>
           {actors.map((actor, idx) => (
             <div key={idx} className=" box">
               <div className="box-img">

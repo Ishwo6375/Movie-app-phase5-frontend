@@ -88,7 +88,7 @@ function MovieForm() {
           <label>
             <h4>Language</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="text"
@@ -102,7 +102,7 @@ function MovieForm() {
           <label>
             <h4>Runtime</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="text"
@@ -117,7 +117,7 @@ function MovieForm() {
           <label>
             <h4>Rating</h4>
           </label>
-          <div className="login">
+          <div>
             <input
               
               type="number"

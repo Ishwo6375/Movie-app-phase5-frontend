@@ -33,7 +33,7 @@
     padding: 20px;
     font-size: 35px;
     margin-top: 20px;
-    color: rgb(255, 81, 0);
+    color: rgb(63, 55, 51);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -45,4 +45,9 @@
     width: 50%;
     text-align: center;
     margin-left: 520px;
+    
+}
+
+.btn-4{
+   margin-top: -15px;
 }

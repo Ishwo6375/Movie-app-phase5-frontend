@@ -22,12 +22,13 @@ function MovieDetails() {
   }, []);
 
   return (
-    <div>
+    <div className="main-div">
       <div>
         {movie && (
           <>
 
             <div className="wrapper">
+              <h3>New and Coming soon..</h3>
               <div className="main_card">
                 <div className="card_left">
                   <div className="card_details">

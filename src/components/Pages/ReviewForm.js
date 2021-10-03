@@ -95,7 +95,7 @@ function ReviewForm() {
           </div>
            <br />
 
-          <button onClick={onSubmitReviews} className="btn btn-primary" >Add Review</button>
+          <button onClick={onSubmitReviews} className="btn-4" >Add Review</button>
           <br />
         </form>
       </div>

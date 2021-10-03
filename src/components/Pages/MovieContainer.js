@@ -42,11 +42,12 @@ function MovieContainer() {
         </form>
       <div className="movie-div">
         <h1>
-          Watch Movie Trailers
+          <span className="span-1">Watch New</span>  <br /><span className="span-2">Movie Trailers</span>
           <br />
-          Exclusively on our
+          <span className="span-1">Exclusively on our</span>
           <br />
-          WEBSITE...
+          <span className="span-1">WEBSITE...</span>
+       <h3 className="head-1"><span className="span-2">New</span> <span className="span-1">and</span> <span className="span-2">Coming soon..</span></h3>
         </h1>
       </div>
       <div className="main">
@@ -61,6 +62,7 @@ function MovieContainer() {
             ) {
               return value;
             }
+           
           }).map((movie, idx) => (
           <div key={idx} className=" box">
             <div className="box-img">

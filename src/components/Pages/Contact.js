@@ -30,14 +30,14 @@ function Contact() {
 
   return (
     <>
-      <h1 className="contact-head">Contact Us</h1>
+     
       <div className="contactme" id="contact">
         <div className="contactOverlay">
           <div className="container">
             <div className="form">
               <form className="form-2" onSubmit={sendEmail}>
                 <div className="formWord">
-                  <h2>Say Hello!</h2>
+                  <h2>Contact Us</h2>
                   <span>Full Name</span>
                   <br />
                   <input

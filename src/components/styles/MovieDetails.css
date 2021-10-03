@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap');
+*{
+    margin-top: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -104,6 +110,14 @@ a:hover{
      font-family: 'Roboto Slab', serif;
      color: rgb(182, 233, 15);
 }
+
+.wrapper{
+	background: linear-gradient(rgba(14, 15, 15, 0.1), rgba(19, 13, 22, 1)),
+    url("https://wallpapercave.com/wp/24t2Yct.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 
