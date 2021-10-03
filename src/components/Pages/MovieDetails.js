@@ -72,7 +72,7 @@ function MovieDetails() {
             <br />
             <div>
               <ReviewCard reviews={movie.reviews} id={id} />
-              <h4>Most Recent Reviews</h4>
+             
             </div>
           </>
         )}
