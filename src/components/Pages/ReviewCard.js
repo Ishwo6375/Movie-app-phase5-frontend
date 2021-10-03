@@ -5,7 +5,7 @@ import ReviewForm from "./ReviewForm";
 function ReviewCard({ reviews, id }) {
   const displayReviews =
     reviews && reviews.map((review) => {
-      return <div key={id}>
+      return <div key={id} className="review-container">
             <h4>User: {review.username}</h4>
             <h5>Comment:{review.comment}</h5>
             <p>Rate:{review.rating}/ 10</p>
@@ -19,12 +19,13 @@ function ReviewCard({ reviews, id }) {
   return (
     <div>
       <div>
-        <h1>Review Movie</h1>
+        <h1 className="review-head">Review Movie</h1>
 
         <br />
         <div>
-          <h4>Most Recent Reviews</h4>
+         
           <ReviewForm />
+           <h4 className="review-head">Most Recent Reviews</h4>
           {displayReviews}
         </div>
       </div>

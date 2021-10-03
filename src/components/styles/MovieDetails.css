@@ -15,10 +15,7 @@ body {
 	display: flex;
 	max-width: 770px;
 	background: #373b3b; 
-	 background: linear-gradient(rgba(11, 99, 231, 0.6), rgba(1, 2, 2, 0.9)),
-    url("http://wallup.net/wp-content/uploads/2016/03/09/35648-Frozen_movie-Princess_Anna-Princess_Elsa-Olaf-movies-Kristoff_Frozen.jpg");
-    background-size: cover;
-  background-position: center;
+	 background: linear-gradient(rgba(11, 99, 231, 0.6), rgba(1, 2, 2, 0.9));
 	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.3); 
 	        box-shadow: 0 0 40px rgba(0,0,0,0.3);
 }

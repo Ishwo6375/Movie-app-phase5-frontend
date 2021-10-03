@@ -28,7 +28,7 @@ function DirectorDetails() {
                   <p>Age: {director.age}</p>
                </div>
 
-               <div>
+               <div >
                    <DirectorMovieCard movies={director.movies} id={id} />
                </div>
                </>
