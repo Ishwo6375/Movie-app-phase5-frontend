@@ -30,7 +30,7 @@ function MovieContainer() {
     <>
          <form className="d-flex my-3">
           <input
-            className="text form-control me-3"
+            className="form-control "
             type="search"
             placeholder="search Movies.."
             aria-label="Search"
@@ -38,9 +38,7 @@ function MovieContainer() {
               setSearchTerm(e.target.value);
             }}
           />
-          <button className="btn btn-outline-success" type="submit">
-            Search
-          </button>
+        
         </form>
       <div className="movie-div">
         <h1>
