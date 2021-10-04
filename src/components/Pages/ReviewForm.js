@@ -1,12 +1,11 @@
 
 import React, { useState } from "react";
-import { useHistory } from "react-router";
-import { useParams } from "react-router-dom";
+
 
 function ReviewForm() {
      const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
-  const history = useHistory();
-   const { id } = useParams();
+  
+
 
   const [reviewForm, setReviewForm] = useState({
    comment: "",

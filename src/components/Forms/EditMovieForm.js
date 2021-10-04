@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
 import { useParams } from "react-router-dom";
 import "./EditMovieForm.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function EditMovieForm() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";

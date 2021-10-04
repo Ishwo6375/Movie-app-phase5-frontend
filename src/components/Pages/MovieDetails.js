@@ -57,6 +57,7 @@ function MovieDetails() {
                           Watch Trailer
                         </a>
                       </button>
+                       
                       <p className="time mx-5">Language:{movie.language} </p>
                     </div>
                     <br />

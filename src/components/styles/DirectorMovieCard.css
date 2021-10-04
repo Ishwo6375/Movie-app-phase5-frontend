@@ -40,12 +40,15 @@
 
 .review-div{
     margin-top: -50px;
+    
 }
 .review-body{
    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(30, 175, 185, 0.6)),
     url("https://wallpapercave.com/wp/24t2Yct.jpg");
   background-size: cover;
   background-position: center;
+  padding: 30px;
+  margin-top: -30px ;
   
  
 }
