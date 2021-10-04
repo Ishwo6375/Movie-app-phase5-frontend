@@ -4,10 +4,7 @@
    box-sizing: border-box;
 }
 
-.logo{
-    font-size:  30px;
-    font-weight: bold;
-}
+
 
 
 .navbar{
@@ -47,10 +44,20 @@
     font-weight: bold;
 }
 
+.span-9{
+    color: greenyellow;
+    font-size: 30px;
+}
+
 .signup{
    border: 1px solid yellow; 
    border-radius: 10px;
 
+}
+
+.logo-img{
+    width: 80px;
+    height: auto;
 }
 
 .mobile-menu-icon{

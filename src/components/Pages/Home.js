@@ -39,7 +39,7 @@ function Home() {
             <li>
               <img
                 className="partner-img"
-                src="https://upload.wikimedia.org/wikipedia/commons/2/20/Movies_logo.png"
+                src="http://www.pngmart.com/files/7/Award-Winning-PNG-File.png"
                 alt="logo-1"
               />
               <img

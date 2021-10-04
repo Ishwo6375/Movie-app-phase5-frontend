@@ -7,7 +7,14 @@ function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <nav className="navbar">
-      <h3 className="logo">Logo</h3>
+      <h3 className="logo"><img
+                className="logo-img"
+                src="https://www.stayathomemum.com.au/wp-content/uploads/2018/02/Foxtel_2012logo.png"
+                alt="logo-1"
+              
+              /> <span className="span-9">Movies</span>.net 
+             
+              </h3>
       <ul
         className={isMobile ? "nav-Links-mobile" : "nav-Links"}
         onClick={() => setIsMobile(false)}
