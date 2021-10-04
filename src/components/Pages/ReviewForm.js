@@ -1,24 +1,28 @@
 
 import React, { useState } from "react";
+import { useHistory } from "react-router";
+import { useParams } from "react-router-dom";
 
 function ReviewForm() {
-    const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
- 
+     const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+  const history = useHistory();
+   const { id } = useParams();
+
   const [reviewForm, setReviewForm] = useState({
-    comment: "",
+   comment: "",
+   username: "",
     rating: "",
-    username: "",
-    movie_id: "",
+    movie_id: ""
   });
 
-
-
- 
   function onHandleChange(e) {
     setReviewForm({ ...reviewForm, [e.target.name]: e.target.value });
+
   }
 
-  function onSubmitReviews(e) {
+  //Post request to get new course
+
+  function onSubmitAddReviews(e) {
     e.preventDefault();
     const config = {
       method: "POST",
@@ -27,9 +31,9 @@ function ReviewForm() {
       },
       body: JSON.stringify({
         comment: reviewForm.comment,
-        rating: reviewForm.rating,
         username: reviewForm.username,
-        movie_id: reviewForm.movie_id,
+        rating: reviewForm.rating,
+        movie_id: reviewForm.movie_id
       }),
     };
 
@@ -38,23 +42,21 @@ function ReviewForm() {
       .then((newReview) => {
         const newReviews = [reviewForm, newReview];
         setReviewForm(newReviews);
-      
+        setReviewForm( " ")
       });
   }
 
-  
   return (
-    <div className="container-1">
+    <div className="container-1 ">
       <div>
-       
-        <h2>Add Review</h2>
+        <h2 className="add">Review Movie</h2>
 
-        <form className="form-control" >
+        <form className="form-control my-5 py-5 ">
           <div>
             <input
               className="input-1"
               type="text"
-              placeholder="Add your review"
+              placeholder="Write comment here..."
               name="comment"
               value={reviewForm.comment}
               onChange={onHandleChange}
@@ -64,10 +66,10 @@ function ReviewForm() {
           <div>
             <input
               className="input-1"
-              type="text"
-              placeholder="Enter your username"
-              name="username"
-              value={reviewForm.username}
+              type="number"
+              placeholder="Rate movie..."
+              name="rating"
+              value={reviewForm.rating}
               onChange={onHandleChange}
             />
           </div>
@@ -75,10 +77,10 @@ function ReviewForm() {
           <div>
             <input
               className="input-1"
-              type="number"
-              placeholder="Rating..."
-              name="rating"
-              value={reviewForm.rating}
+              type="text"
+              placeholder="enter your username"
+              name="username"
+              value={reviewForm.username}
               onChange={onHandleChange}
             />
           </div>
@@ -93,10 +95,10 @@ function ReviewForm() {
               onChange={onHandleChange}
             />
           </div>
-           <br />
-
-          <button onClick={onSubmitReviews} className="btn-4" >Add Review</button>
           <br />
+          <button onClick={onSubmitAddReviews} className="btn-4">
+            Review
+          </button>
         </form>
       </div>
     </div>

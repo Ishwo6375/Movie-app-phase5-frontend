@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import DirectorMovieCard from "./DirectorMovieCard";
 import "../styles/DirectorDetails.css";
 
@@ -20,18 +20,6 @@ function DirectorDetails() {
         <div>
            {director && (
                <>
-               {/* <h1>{director.name}</h1>
-               <div className="img_container">
-                     <img className="dir-image" alt={"director-img"} src={director.image} />
-               </div>
-               <div className="dir-bio">
-                  <h5>{director.bio}</h5>
-                  <p>Age: {director.age}</p>
-               </div>
-
-               <div >
-                   <DirectorMovieCard movies={director.movies} id={id} />
-               </div> */}
 
                <div className="wrapper-1">
                    <div className="box-1">

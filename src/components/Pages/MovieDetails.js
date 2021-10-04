@@ -10,6 +10,7 @@ function MovieDetails() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
   const [movie, setMovie] = useState([]);
   
+  
 
 
   const { id } = useParams();
@@ -21,6 +22,8 @@ function MovieDetails() {
     // eslint-disable-next-line
   }, []);
 
+   
+
   return (
     <div className="main-div">
       <div>
@@ -28,7 +31,7 @@ function MovieDetails() {
           <>
 
             <div className="wrapper">
-              <h3>New and Coming soon..</h3>
+              
               <div className="main_card">
                 <div className="card_left">
                   <div className="card_details">

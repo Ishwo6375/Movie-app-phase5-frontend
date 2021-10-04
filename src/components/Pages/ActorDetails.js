@@ -30,6 +30,7 @@ function ActorDetails() {
                    </div>
 
                    </div>
+                   
                         <div clasName="social">
                             <ActorComment comments={actor.comments} id={id}/>
                         </div>
