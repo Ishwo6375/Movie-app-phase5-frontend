@@ -53,6 +53,10 @@ function MovieForm() {
   return (
     <div className="edit-div">
       <div className="container-1">
+        <p className="para">Recently watched a Movie???
+        <p className="para">Add movie in our website to review</p>
+        
+        </p>
         <h2>Enter Movie Details</h2>
         <form className="form-control my-5 py-5 input-div">
           <label>
