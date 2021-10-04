@@ -29,9 +29,7 @@ function Navbar() {
          <Link to="/contact" className="contact">
           <li>Contact Us</li>
         </Link>
-         <Link to="/favourites" className="contact">
-          <li>Favourites</li>
-        </Link>
+        
       </ul>
       <button
         className="mobile-menu-icon"
