@@ -9,10 +9,10 @@ function Navbar() {
     <nav className="navbar">
       <h3 className="logo"><img
                 className="logo-img"
-                src="https://www.stayathomemum.com.au/wp-content/uploads/2018/02/Foxtel_2012logo.png"
+                src="https://archive.org/download/png-movie-ticket-movie-ticket-1-950/png-movie-ticket-movie-ticket-1-950.png"
                 alt="logo-1"
               
-              /> <span className="span-9">Movies</span>.net 
+              /> <span className="span-9">Trailers</span>.com 
              
               </h3>
       <ul

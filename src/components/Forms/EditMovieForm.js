@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
 import { useParams } from "react-router-dom";
+import "./EditMovieForm.css";
 import { Link } from "react-router-dom";
 
 function EditMovieForm() {
@@ -54,16 +55,16 @@ function EditMovieForm() {
 
 
     return (
-       <div>
-      <div>
-        <h2>Enter Movie Details</h2>
+       <div >
+      <div className="container-1">
+        <h2 className="span-2">Edit Movie Details</h2>
         <form className="form-control my-5 py-5" onSubmit={onSubmitEditMovie}>
           <label>
             <h4>Movie Title</h4>
           </label>
           <div>
             <input
-             
+             className="input-2"
               type="text"
               placeholder="Enter new Movie title..."
               name="title"
@@ -78,7 +79,7 @@ function EditMovieForm() {
           </label>
           <div>
             <input
-              
+               className="input-2"
               type="text"
               placeholder="Enter Movie Description..."
               name="description"
@@ -92,7 +93,7 @@ function EditMovieForm() {
           </label>
           <div>
             <input
-              
+               className="input-2"
               type="text"
               placeholder="Enter Movie Language"
               name="language"
@@ -106,7 +107,7 @@ function EditMovieForm() {
           </label>
           <div>
             <input
-              
+               className="input-2"
               type="text"
               placeholder="Enter runtime.. "
               name="runtime"
@@ -121,7 +122,7 @@ function EditMovieForm() {
           </label>
           <div>
             <input
-              
+               className="input-2"
               type="number"
               placeholder="Enter Movie Rating.."
               name="rating"
@@ -129,13 +130,14 @@ function EditMovieForm() {
               onChange={onHandlechange}
               required
             />
+            </div>
 
             <label>
               <h4>Movie Image</h4>
             </label>
             <div>
               <input
-                
+                 className="input-2"
                 type="text"
                 placeholder="Enter Movie Image url..."
                 name="image"
@@ -143,13 +145,15 @@ function EditMovieForm() {
                 onChange={onHandlechange}
                 required
               />
+                </div>
+
 
               <label>
                 <h4>Video Url</h4>
               </label>
               <div>
                 <input
-                  
+                   className="input-2"
                   type="text"
                   placeholder="Enter Movie video url..."
                   name="video_url"
@@ -157,12 +161,14 @@ function EditMovieForm() {
                   onChange={onHandlechange}
                   required
                 />
+                  </div>
+
                 <label>
                   <h4>Movie Genre</h4>
                 </label>
                 <div>
                   <input
-                    
+                     className="input-2"
                     type="text"
                     placeholder="Enter Movie Genre..."
                     name="genre"
@@ -170,13 +176,15 @@ function EditMovieForm() {
                     onChange={onHandlechange}
                     required
                   />
+                    </div>
+
 
                   <label>
                   <h4>Director</h4>
                 </label>
                 <div>
                   <input
-                    
+                     className="input-2"
                     type="number"
                     placeholder="Enter director id..."
                     name="director_id"
@@ -186,11 +194,11 @@ function EditMovieForm() {
                   />
                 </div>
                   
-                </div>
-              </div>
-            </div>
-          </div>
-          <button className="btn-1">
+               
+              
+           
+        
+          <button className="btn-2">
             Update
           </button>
         </form>

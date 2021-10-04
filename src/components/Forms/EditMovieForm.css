@@ -1,0 +1,45 @@
+*margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+
+.container-1 {
+  max-width: 800px;
+  height: 300px;
+  color: rgba(161, 235, 26, 0.904);
+  font-size: 30px;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  box-sizing: border-box;
+  padding: 30px;
+
+  height: 100vh;
+ 
+}
+
+.input-2{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.input-2:hover{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.div-content{
+    width: 500px;
+    height: 400px;
+}
+
+

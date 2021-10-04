@@ -47,11 +47,11 @@ function ReviewForm() {
   }
 
   return (
-    <div className="container-1 ">
+    <div className="container-2 ">
       <div>
         <h2 className="add">Review Movie</h2>
 
-        <form className="form-control my-5 py-5 ">
+        <form >
           <div>
             <input
               className="input-1"

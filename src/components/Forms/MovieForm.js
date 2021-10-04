@@ -127,6 +127,7 @@ function MovieForm() {
               onChange={onHandlechange}
               required
             />
+             </div>
            
 
             <label>
@@ -142,6 +143,7 @@ function MovieForm() {
                 onChange={onHandlechange}
                 required
               />
+               </div>
 
               <label>
                 <h4>Video Url</h4>
@@ -156,6 +158,7 @@ function MovieForm() {
                   onChange={onHandlechange}
                   required
                 />
+                 </div>
                 <label>
                   <h4>Movie Genre</h4>
                 </label>
@@ -169,6 +172,7 @@ function MovieForm() {
                     onChange={onHandlechange}
                     required
                   />
+                   </div>
 
                   <label>
                   <h4>Director</h4>
@@ -185,10 +189,7 @@ function MovieForm() {
                   />
                 </div>
                   
-                </div>
-              </div>
-            </div>
-          </div>
+              
           <button onClick={onSubmitAddMovie} className="btn-1">
             Submit
           </button>

@@ -49,7 +49,13 @@ const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
           <br />
           <span className="span-1">Exclusively on our</span>
           <br />
-          <span className="span-1">WEBSITE...</span>
+          <span className="span-1"></span>
+          <img
+                className="logo-img"
+                src="https://archive.org/download/png-movie-ticket-movie-ticket-1-950/png-movie-ticket-movie-ticket-1-950.png"
+                alt="logo-1"
+              
+              /> <span className="span-9">Trailers</span>.com
        <h3 className="head-1"><span className="span-2">New</span> <span className="span-1">and</span> <span className="span-2">Coming soon..</span></h3>
         </h1>
       </div>

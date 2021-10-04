@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&family=Gluten:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 75px;
+    height: 99px;
     background: linear-gradient(rgba(31, 12, 202, 0.6), rgba(29, 23, 39, 0.5));
     color: rgb(251, 245, 245);
 }
@@ -46,7 +47,8 @@
 
 .span-9{
     color: greenyellow;
-    font-size: 30px;
+    font-size: 45px;
+     font-family: 'Barlow', sans-serif;
 }
 
 .signup{
