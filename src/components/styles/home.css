@@ -1,38 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-*margin{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+*margin {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
-.home-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px;
-    margin: 30px;
-     background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(19, 13, 22, 1)),
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  margin: 30px;
+  background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(19, 13, 22, 1)),
     url("http://cdn.wallpapersafari.com/29/66/dqXGUr.jpg");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   height: 100vh;
   padding: 0px;
   margin: 0px;
-    
 }
 
-.span-6{
+.span-6 {
   color: rgb(194, 192, 221);
   font-size: 60px;
   margin-left: 90px;
   font-weight: bold;
 }
-.span-7{
-  color:rgb(240, 241, 228);
+.span-7 {
+  color: rgb(240, 241, 228);
 }
 
-.span-8{
-    color: bisque;
-    padding: 20px;
+.span-8 {
+  color: bisque;
+  padding: 20px;
 }
+
+.partner-img{
+    width: 90px;
+    height: 40px;
+    margin: 20px;
+    
+}
+
+.client-wrap{
+    margin-top: 200px;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.client-wrap h1{
+    font-size: 60px;
+   
+}
+
+.client-wrap hr{
+    width: 15%;
+    height: 5px;
+    border: none;
+    background: #f5fafa;
+    margin: auto;
+    margin-bottom: 30px;
+}
+

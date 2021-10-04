@@ -45,7 +45,7 @@ const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
         </form>
       <div className="movie-div">
         <h1>
-          <span className="span-1">Watch New</span>  <br /><span className="span-2">Movie Trailers</span>
+          <span className="span-1">Browse Latest</span>  <br /><span className="span-2">Movie Trailers</span>
           <br />
           <span className="span-1">Exclusively on our</span>
           <br />
