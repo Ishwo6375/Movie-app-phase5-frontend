@@ -42,7 +42,7 @@ function ReviewForm() {
       .then((newReview) => {
         const newReviews = [reviewForm, newReview];
         setReviewForm(newReviews);
-        setReviewForm( " ")
+        
       });
   }
 

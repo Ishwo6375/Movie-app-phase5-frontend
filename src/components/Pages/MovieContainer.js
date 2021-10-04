@@ -2,15 +2,18 @@ import React, { useEffect, useState } from "react";
 import "../styles/MovieContainer.css";
 import { Link } from "react-router-dom";
 
-function MovieContainer() {
-  const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+function MovieContainer(props) {
+const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
   const [movies, setMovies] = useState([]);
    const [searchTerm, setSearchTerm] = useState("");
+   
 
   useEffect(() => {
     showMovies();
   }, []);
+
+
 
   function showMovies() {
     fetch(`${baseURL}/movies`)
@@ -72,17 +75,19 @@ function MovieContainer() {
               <h3>{movie.title}</h3>
               <p>IMDB Rating: {movie.rating}/10</p>
             </div>
-
+              
             <div className="button">
               <button className=" btn-secondary">
                 <Link to={`/movies/${movie.id}`}>Movie Details</Link>
               </button>
+              
               <div >
                 <br />
               <button
                 onClick={() => deleteMovie(movie)}
                 className=" btn-danger">Delete</button>
 
+              
               </div>
             </div>
 
