@@ -22,9 +22,10 @@ function Home() {
           </h2>
 
           <span className="span-8">Tell your friends </span>
-          <span className="span-7">what's good</span>
+          <span className="span-7">what's good!!!</span>
         </h1>
 
+        <br />
         <br />
 
         <div>
@@ -33,7 +34,7 @@ function Home() {
           </Link>
         </div>
         <div className="client-wrap">
-          <h1>Our official Partners</h1>
+          <h1>Our Official Partners</h1>
           <hr />
           <ul className="client-in">
             <li>
@@ -52,12 +53,12 @@ function Home() {
                 src="http://steve-lovelace.com/wordpress/wp-content/uploads/2013/09/netflix-logo-in-optima-font-1024x307.png"
                 alt="logo-1"
               />
-               <img
+              <img
                 className="partner-img"
                 src="http://img1.wikia.nocookie.net/__cb20111027001559/logopedia/images/1/1a/Rotten_tomatoes_logo.png"
                 alt="logo-1"
               />
-               <img
+              <img
                 className="partner-img"
                 src="http://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
                 alt="logo-1"

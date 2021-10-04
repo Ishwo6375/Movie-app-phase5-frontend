@@ -55,14 +55,14 @@ function EditMovieForm() {
 
 
     return (
-       <div >
+       <div className="edit-div">
       <div className="container-1">
-        <h2 className="span-2">Edit Movie Details</h2>
-        <form className="form-control my-5 py-5" onSubmit={onSubmitEditMovie}>
+        <h2>Edit Movie Details</h2>
+        <form className="form-control my-5 py-5 input-div" onSubmit={onSubmitEditMovie}>
           <label>
             <h4>Movie Title</h4>
           </label>
-          <div>
+          <div >
             <input
              className="input-2"
               type="text"
@@ -198,7 +198,7 @@ function EditMovieForm() {
               
            
         
-          <button className="btn-2">
+          <button className="btn-4">
             Update
           </button>
         </form>

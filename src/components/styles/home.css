@@ -7,14 +7,19 @@
   box-sizing: content-box;
 }
 
+.home-content h1{
+    margin: -30px ;
+    font-size: 30px;
+}
+
 .home-main {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 150px;
   margin: 30px;
-  background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(19, 13, 22, 1)),
-    url("http://cdn.wallpapersafari.com/29/66/dqXGUr.jpg");
+  background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(0, 0, 0, 0.9)),
+    url("https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -31,6 +36,7 @@
 .span-7 {
   color: rgb(240, 241, 228);
 }
+
 
 .span-8 {
   color: bisque;
@@ -66,3 +72,6 @@
     margin-bottom: 30px;
 }
 
+.client-in{
+  transform: translateY();
+}

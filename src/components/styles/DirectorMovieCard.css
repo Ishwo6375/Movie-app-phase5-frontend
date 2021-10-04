@@ -61,8 +61,10 @@
     
 }
 
-.btn-4{
-   margin-top: -15px;
+.btn-5{
+   margin-top: -20px;
+   background: rgb(2, 114, 134);
+   margin-left: 10px;
 }
 
 .container-2{
@@ -79,5 +81,5 @@
   box-sizing: border-box;
   padding: 30px;
 
-  height: 65vh;
+  height: 70vh;
 }

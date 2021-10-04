@@ -14,7 +14,7 @@ function MovieForm() {
     image: "",
     video_url: "",
     genre: "",
-    director_id: ""
+    director_id: "",
   });
 
   function onHandlechange(e) {
@@ -28,7 +28,7 @@ function MovieForm() {
       headers: {
         "Content-Type": "application/json",
       },
-       body: JSON.stringify({
+      body: JSON.stringify({
         title: movieForm.title,
         description: movieForm.description,
         language: movieForm.language,
@@ -51,16 +51,16 @@ function MovieForm() {
   }
 
   return (
-    <div >
-      <div>
+    <div className="edit-div">
+      <div className="container-1">
         <h2>Enter Movie Details</h2>
-        <form className="form-control my-5 py-5">
+        <form className="form-control my-5 py-5 input-div">
           <label>
             <h4>Movie Title</h4>
           </label>
-          <div>
+          <div className="div-input">
             <input
-        
+            className="input-2 "
               type="text"
               placeholder="Enter Movie title..."
               name="title"
@@ -75,7 +75,7 @@ function MovieForm() {
           </label>
           <div>
             <input
-              
+             className="input-2"
               type="text"
               placeholder="Enter Movie Description..."
               name="description"
@@ -84,13 +84,13 @@ function MovieForm() {
               required
             />
           </div>
-          
+
           <label>
             <h4>Language</h4>
           </label>
           <div>
             <input
-              
+             className="input-2"
               type="text"
               placeholder="Enter Movie Language"
               name="language"
@@ -104,7 +104,7 @@ function MovieForm() {
           </label>
           <div>
             <input
-              
+             className="input-2"
               type="text"
               placeholder="Enter runtime.. "
               name="runtime"
@@ -119,7 +119,7 @@ function MovieForm() {
           </label>
           <div>
             <input
-              
+             className="input-2"
               type="number"
               placeholder="Enter Movie Rating.."
               name="rating"
@@ -127,70 +127,68 @@ function MovieForm() {
               onChange={onHandlechange}
               required
             />
-             </div>
-           
+          </div>
 
-            <label>
-              <h4>Movie Image</h4>
-            </label>
-            <div>
-              <input
-                
-                type="text"
-                placeholder="Enter Movie Image url..."
-                name="image"
-                value={movieForm.image}
-                onChange={onHandlechange}
-                required
-              />
-               </div>
+          <label>
+            <h4>Movie Image</h4>
+          </label>
+          <div>
+            <input
+             className="input-2"
+              type="text"
+              placeholder="Enter Movie Image url..."
+              name="image"
+              value={movieForm.image}
+              onChange={onHandlechange}
+              required
+            />
+          </div>
 
-              <label>
-                <h4>Video Url</h4>
-              </label>
-              <div>
-                <input
-                  
-                  type="text"
-                  placeholder="Enter Movie video url..."
-                  name="video_url"
-                  value={movieForm.video_url}
-                  onChange={onHandlechange}
-                  required
-                />
-                 </div>
-                <label>
-                  <h4>Movie Genre</h4>
-                </label>
-                <div>
-                  <input
-                    
-                    type="text"
-                    placeholder="Enter Movie Genre..."
-                    name="genre"
-                    value={movieForm.genre}
-                    onChange={onHandlechange}
-                    required
-                  />
-                   </div>
+          <label>
+            <h4>Video Url</h4>
+          </label>
+          <div>
+            <input
+             className="input-2"
+              type="text"
+              placeholder="Enter Movie video url..."
+              name="video_url"
+              value={movieForm.video_url}
+              onChange={onHandlechange}
+              required
+            />
+          </div>
+          <label>
+            <h4>Movie Genre</h4>
+          </label>
+          <div>
+            <input
+             className="input-2"
+              type="text"
+              placeholder="Enter Movie Genre..."
+              name="genre"
+              value={movieForm.genre}
+              onChange={onHandlechange}
+              required
+            />
+          </div>
 
-                  <label>
-                  <h4>Director</h4>
-                </label>
-                <div>
-                  <input
-                    
-                    type="number"
-                    placeholder="Enter director id..."
-                    name="director_id"
-                    value={movieForm.director_id}
-                    onChange={onHandlechange}
-                    required
-                  />
-                </div>
-                  
-              
-          <button onClick={onSubmitAddMovie} className="btn-1">
+          <label>
+            <h4>Director</h4>
+          </label>
+          <div>
+            <input
+             className="input-2"
+              type="number"
+              placeholder="Enter director id..."
+              name="director_id"
+              value={movieForm.director_id}
+              onChange={onHandlechange}
+              required
+            />
+          </div>
+
+          <button onClick={onSubmitAddMovie} className="btn-4">
             Submit
           </button>
         </form>

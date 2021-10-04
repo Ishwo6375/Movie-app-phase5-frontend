@@ -96,7 +96,7 @@ function ReviewForm() {
             />
           </div>
           <br />
-          <button onClick={onSubmitAddReviews} className="btn-4">
+          <button onClick={onSubmitAddReviews} className="btn-5">
             Review
           </button>
         </form>
