@@ -4,5 +4,35 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+}
 
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    margin: 30px;
+     background: linear-gradient(rgba(14, 15, 15, 0.1), rgba(19, 13, 22, 1)),
+    url("http://cdn.wallpapersafari.com/29/66/dqXGUr.jpg");
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+    
+}
+
+.span-6{
+  color: rgb(194, 192, 221);
+  font-size: 60px;
+  margin-left: 90px;
+  font-weight: bold;
+}
+.span-7{
+  color:rgb(201, 221, 27);
+}
+
+.span-8{
+    color: bisque;
+    padding: 20px;
 }
