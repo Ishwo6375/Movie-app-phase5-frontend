@@ -7,6 +7,7 @@
 
 
 .container-1 {
+     
   max-width: 800px;
   height: 300px;
   color: rgba(161, 235, 26, 0.904);
@@ -28,6 +29,7 @@
     height: 30px;
     padding: 10px;
     font-size: 25px;
+    
 
 }
 

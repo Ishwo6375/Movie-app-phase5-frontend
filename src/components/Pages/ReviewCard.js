@@ -38,7 +38,7 @@ function ReviewCard({ reviews, id }) {
 
   return (
     <div className="review-body">
-      <div >
+      <div className="review-div">
         <h1 className="review-head">Review Movie</h1>
 
         <br />

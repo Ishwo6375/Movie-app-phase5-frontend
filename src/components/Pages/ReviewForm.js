@@ -49,7 +49,7 @@ function ReviewForm() {
   return (
     <div className="container-2 ">
       <div>
-        <h2 className="add">Review Movie</h2>
+        <h2 className="span-1">Review Movie</h2>
 
         <form >
           <div>
