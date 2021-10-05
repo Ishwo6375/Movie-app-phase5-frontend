@@ -27,7 +27,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background: linear-gradient(rgba(31, 12, 202, 0.7), rgba(29, 23, 39, 0.6));
+  background: linear-gradient(rgba(12, 11, 12, 0.7), rgba(101, 57, 172, 0.8));
 }
 
 .footer-col {
@@ -71,15 +71,16 @@ ul {
   color: white;
 }
 .social ul li a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .social ul li a {
   text-decoration: none;
   margin-left: -20px;
-  color: rgb(244, 248, 23);
-  font-size: 17px;
+  color: rgb(230, 230, 64);
+  font-size: 19px;
   font-weight: bold;
+  
 }
 
 .social {
@@ -92,4 +93,9 @@ ul {
     font-weight: 900;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
+}
+
+.span-11{
+    color: rgb(255, 255, 255);
+    
 }
