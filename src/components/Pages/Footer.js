@@ -41,7 +41,7 @@ function Footer() {
                           <li><a href="https://github.com/Ishwo6375"><span className="span-11"><FaGithub /></span>Github</a></li>
                           <li><a href="mailto: ishaan.prazapati6375@gmail.com"><span className="span-11"><FaGooglePlusSquare /></span>Gmail</a></li>
                            <li><a href="https://linkedin.com/in/ishwor-prajapati-b4a102201"><span className="span-11"><FaLinkedin /> </span>Linkdin</a></li>
-                            <li><a href="https://linkedin.com/in/ishwor-prajapati-b4a102201"><span className="span-11"><FaFacebookSquare /></span> Facebook </a></li>
+                            <li><a href="https://www.facebook.com"><span className="span-11"><FaFacebookSquare /></span> Facebook </a></li>
                       </ul>
 
                   </div>
