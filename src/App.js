@@ -10,6 +10,7 @@ import MovieForm from "./components/Forms/MovieForm";
 import EditMovieForm from "./components/Forms/EditMovieForm";
 import DirectorDetails from "./components/Pages/DirectorDetails";
 import ActorDetails from "./components/Pages/ActorDetails";
+import Footer from "./components/Pages/Footer";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <EditMovieForm />
           </Route>
         </Switch>
+       <Footer />
       </div>
     </Router>
   );

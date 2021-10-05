@@ -30,15 +30,17 @@ function Footer() {
                           <li><a href="#">Review</a></li>
                            <li><a href="#">Movie Details</a></li>
                       </ul>
-                  </div>
+
+                       </div>
                     <div className="social">
-                      <h4>Follow Us </h4>
+                      <h4>Follow Us</h4>
                       <ul>
-                          <a href="#">Github</a>
-                          <a href="#">Gmail</a>
-                          <a href="#">Linkedin</a>
+                          <li><a href="https://github.com/Ishwo6375">Git Hub</a></li>
+                          <li><a href="mailto: ishaan.prazapati6375@gmail.com">Gmail</a></li>
+                           <li><a href="https://linkedin.com/in/ishwor-prajapati-b4a102201">Linkedin</a></li>
                       </ul>
                   </div>
+                    
                    
                   
               </div>
