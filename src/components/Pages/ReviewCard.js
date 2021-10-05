@@ -5,7 +5,7 @@ import ReviewForm from "./ReviewForm";
 
 function ReviewCard({ reviews, id }) {
 
-  const [Delreview, setDelreview] = useState([])
+  const [delreview, setDelreview] = useState([])
    const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
     useEffect(() => {

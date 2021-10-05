@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 
+
 function MovieForm() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
   const history = useHistory();
@@ -64,7 +65,7 @@ function MovieForm() {
           </label>
           <div className="div-input">
             <input
-            className="input-2 "
+            className="input-2"
               type="text"
               placeholder="Enter Movie title..."
               name="title"

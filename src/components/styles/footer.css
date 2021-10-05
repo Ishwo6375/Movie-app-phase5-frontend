@@ -20,7 +20,7 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 18px;
+  padding: 58px;
 }
 
 ul {
