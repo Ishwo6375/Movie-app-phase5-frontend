@@ -39,7 +39,11 @@ function Footer() {
                           <li><a href="mailto: ishaan.prazapati6375@gmail.com">Gmail</a></li>
                            <li><a href="https://linkedin.com/in/ishwor-prajapati-b4a102201">Linkedin</a></li>
                       </ul>
+
                   </div>
+                      <p className="copyright">
+        <span className="span-10">Copyright &copy;2021</span> Cinema Trailer.com | All Rights are reserved.
+      </p>
                     
                    
                   

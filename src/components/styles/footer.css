@@ -86,3 +86,10 @@ ul {
   width: 25%;
   padding: 0 15px;
 }
+
+.copyright{
+     color: rgb(165, 231, 12);
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
