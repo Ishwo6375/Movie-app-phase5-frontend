@@ -7,9 +7,9 @@
   box-sizing: content-box;
 }
 
-.home-content h1{
-    margin: -30px ;
-    font-size: 30px;
+.home-content h1 {
+  margin: 30px;
+  font-size: 20px;
 }
 
 .home-main {
@@ -19,10 +19,10 @@
   padding: 150px;
   margin: 30px;
   background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(0, 0, 0, 0.9)),
-    url("https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg");
+    url("http://hdqwalls.com/wallpapers/avengers-4-2019-movie-poster-3m.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+
   padding: 0px;
   margin: 0px;
 }
@@ -30,48 +30,55 @@
 .span-6 {
   color: rgb(194, 192, 221);
   font-size: 60px;
-  margin-left: 90px;
   font-weight: bold;
 }
 .span-7 {
   color: rgb(240, 241, 228);
+ 
 }
-
 
 .span-8 {
   color: bisque;
   padding: 20px;
 }
 
-.partner-img{
-    width: 90px;
-    height: 40px;
-    margin: 20px;
-    
+.partner-img {
+  width: 90px;
+  height: 40px;
+  margin: 20px;
 }
 
-.client-wrap{
-    margin-top: 200px;
-    color: white;
-    width: 100%;
-    height: auto;
-    text-align: center;
+.client-wrap {
+  margin-top: 200px;
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
-.client-wrap h1{
-    font-size: 60px;
-   
+.client-wrap h1 {
+  font-size: 60px;
 }
 
-.client-wrap hr{
-    width: 15%;
-    height: 5px;
-    border: none;
-    background: #f5fafa;
-    margin: auto;
-    margin-bottom: 30px;
+.client-wrap hr {
+  width: 15%;
+  height: 5px;
+  border: none;
+  background: #f5fafa;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-.client-in{
+.client-in {
   transform: translateY();
+}
+
+.movie-li {
+  width: 250px;
+  padding: 30px;
+}
+
+.span-10 {
+  color: white;
+  text-align: center;
 }
