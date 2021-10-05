@@ -31,6 +31,7 @@ body{
   background: linear-gradient(rgba(38, 42, 40, 0.5), rgb(37, 34, 34, 0.9)),
     url("https://cdn.wallpapersafari.com/85/8/sr2kC0.jpg");
      background-size: cover;
+     height: 80vw;
    
 }
 

@@ -11,6 +11,7 @@ function MovieDetails() {
   const [movie, setMovie] = useState([]);
   
   
+  
 
 
   const { id } = useParams();
@@ -21,6 +22,8 @@ function MovieDetails() {
       .then((movieDetail) => setMovie(movieDetail));
     // eslint-disable-next-line
   }, []);
+
+  
 
    
 

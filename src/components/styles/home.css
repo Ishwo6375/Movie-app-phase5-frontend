@@ -34,7 +34,6 @@
 }
 .span-7 {
   color: rgb(240, 241, 228);
- 
 }
 
 .span-8 {
@@ -64,6 +63,7 @@
   width: 15%;
   height: 5px;
   border: none;
+
   background: #f5fafa;
   margin: auto;
   margin-bottom: 30px;

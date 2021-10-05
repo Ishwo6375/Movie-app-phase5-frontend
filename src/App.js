@@ -47,8 +47,8 @@ function App() {
             <EditMovieForm />
           </Route>
         </Switch>
-       <Footer />
       </div>
+       <Footer />
     </Router>
   );
 }

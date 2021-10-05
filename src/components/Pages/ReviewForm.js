@@ -50,7 +50,7 @@ function ReviewForm() {
       <div>
         <h2 className="span-1">Review Movie</h2>
 
-        <form >
+        <form>
           <div>
             <input
               className="input-1"
