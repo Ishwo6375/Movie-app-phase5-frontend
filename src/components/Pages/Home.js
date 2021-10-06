@@ -34,7 +34,8 @@ function Home() {
 
         <div>
           <Link className="btn btn-secondary" to={"/Movies"}>
-            <h4>Get Started it's free</h4>
+            
+            <h4 className="home-btn">Get Started it's free</h4>
           </Link>
         </div>
         <div className="client-wrap">

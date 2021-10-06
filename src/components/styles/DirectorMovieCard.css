@@ -21,7 +21,7 @@
   color: rgb(245, 230, 245);
   padding: 20px;
   margin: 70px;
-  margin-left: 800px;
+  margin-left: 900px;
   border: 1px solid transparent;
   max-width: 500px;
  border: 1px solid rgb(238, 231, 231);
@@ -85,5 +85,32 @@
   padding: 30px;
 
   height: 70vh;
+}
+
+.review-link{
+    color: white;
+    text-decoration: none;
+   
+}
+.review-link h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-right: 30px;
+}
+
+.btn-rev{
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    background: linear-gradient(rgba(8, 198, 223, 0.7), rgba(23, 16, 39, 0.4));
+     
+}
+.btn-rev:hover{
+    color: white;
+    background: linear-gradient(rgba(113, 197, 16, 0.7), rgba(23, 16, 39, 0.4));
+   
+   
 }
 

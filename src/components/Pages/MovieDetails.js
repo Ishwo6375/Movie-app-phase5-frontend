@@ -79,6 +79,7 @@ function MovieDetails() {
             </div>
             <br />
             <div>
+
               <ReviewCard reviews={movie.reviews} id={id} />
              
             </div>

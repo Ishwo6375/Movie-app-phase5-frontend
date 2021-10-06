@@ -13,25 +13,25 @@ function Footer() {
                   <div className="footer-col">
                       <h4>Website </h4>
                       <ul>
-                          <li><a href="#">About Us</a></li>
-                          <li><a href="#">Our Services</a></li>
-                          <li><a href="#">Privacy Policy</a></li>
+                          <li> About Us</li>
+                          <li> Our Services</li>
+                          <li> Privacy Policy</li>
                          
                       </ul>
                   </div>
                     <div className="footer-col">
                       <h4>Get Help </h4>
                       <ul>
-                          <li><a href="#">FAQ</a></li>
+                          <li>FAQ</li>
                           
                       </ul>
                   </div>
                     <div className="footer-col">
                       <h4>Our services</h4>
                       <ul>
-                          <li><a href="#">Movie Trailers</a></li>
-                          <li><a href="#">Review</a></li>
-                           <li><a href="#">Movie Details</a></li>
+                          <li>Movie Trailers</li>
+                          <li>Review</li>
+                           <li>Movie Details</li>
                       </ul>
 
                        </div>

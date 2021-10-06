@@ -12,6 +12,7 @@ body{
  font-size: 16px;
  color:#333;
 
+
 }
 
 .box-1{
@@ -31,7 +32,8 @@ body{
   background: linear-gradient(rgba(38, 42, 40, 0.5), rgb(37, 34, 34, 0.9)),
     url("https://cdn.wallpapersafari.com/85/8/sr2kC0.jpg");
      background-size: cover;
-     height: 110vw;
+     height: 120vw;
+    
    
 }
 
@@ -67,7 +69,7 @@ body{
 }
 
 .box-text h4 {
-   font-size: 34px; 
+   font-size: 24px; 
    font-weight: 400;
    color: #e7d20f;
    line-height: 30px;
@@ -95,4 +97,11 @@ body{
     padding: 10px;
     line-height: 90px; 
     text-align: center;
+}
+
+.span-13{
+    color: white;
+    text-align: center;
+    margin-left: -250px;
+    padding: 30px;
 }

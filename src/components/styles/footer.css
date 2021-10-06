@@ -59,7 +59,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.footer-col ul li a {
+.footer-col ul li{
   text-decoration: none;
   margin-left: -25px;
   list-style: none;
@@ -67,7 +67,7 @@ ul {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
-.footer-col ul li a:hover {
+.footer-col ul li:hover{
   color: white;
 }
 .social ul li a:hover {

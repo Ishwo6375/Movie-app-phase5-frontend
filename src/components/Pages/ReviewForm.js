@@ -1,9 +1,14 @@
-
+// import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
+// import { useHistory } from "react-router";
+
 
 
 function ReviewForm() {
      const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+    //  const history = useHistory();
+      // const { id } = useParams();
   
 
 
@@ -41,6 +46,7 @@ function ReviewForm() {
       .then((newReview) => {
         const newReviews = [reviewForm, newReview];
         setReviewForm(newReviews);
+        // history.push("review")
         
       });
   }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yaldevi:wght@400;500;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
@@ -10,6 +11,7 @@
 .home-content h1 {
   margin: 30px;
   font-size: 20px;
+  font-family: 'Yaldevi', sans-serif;
 }
 
 .home-main {
@@ -28,17 +30,31 @@
 }
 
 .span-6 {
-  color: rgb(194, 192, 221);
+  color: rgb(255, 255, 255);
   font-size: 60px;
   font-weight: bold;
+  font-family: 'Yaldevi', sans-serif;
 }
 .span-7 {
   color: rgb(240, 241, 228);
+  font-family: 'Yaldevi', sans-serif;
 }
+
+.home-btn{
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
 
 .span-8 {
   color: bisque;
   padding: 20px;
+  font-family: 'Yaldevi', sans-serif;
 }
 
 .partner-img {

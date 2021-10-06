@@ -53,7 +53,7 @@ form button {
   height: 55px;
   border: 0;
   border-radius: 5px;
-  background-color: #001517;
+  background-color: #2eaae4;
   -webkit-transition: 0.5s linear;
   -o-transition: 0.5s linear;
   transition: 0.5s linear;
@@ -67,7 +67,7 @@ form button:hover {
   -webkit-transition: 0.5s linear;
   -o-transition: 0.5s linear;
   transition: 0.5s linear;
-  color: black;
+  color: rgb(241, 229, 229);
 }
 .formWord {
   width: 40%;

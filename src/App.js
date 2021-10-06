@@ -11,6 +11,7 @@ import EditMovieForm from "./components/Forms/EditMovieForm";
 import DirectorDetails from "./components/Pages/DirectorDetails";
 import ActorDetails from "./components/Pages/ActorDetails";
 import Footer from "./components/Pages/Footer";
+import ReviewForm from "./components/Pages/ReviewForm";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route exact path="/movie/edit/:id">
             <EditMovieForm />
+          </Route>
+          <Route exact path="/reviews">
+          <ReviewForm />
           </Route>
         </Switch>
       </div>

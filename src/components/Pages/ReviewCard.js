@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-import ReviewForm from "./ReviewForm";
+import { Link } from "react-router-dom";
+// import ReviewForm from "./ReviewForm";
 
 
 function ReviewCard({ reviews, id }) {
 
-  const [delreview, setDelreview] = useState([])
+  const [rev, setReviews] = useState([])
    const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
     useEffect(() => {
@@ -13,10 +13,9 @@ function ReviewCard({ reviews, id }) {
   }, []);
     
    function populateReviews() {
-    
     fetch(`${baseURL}/reviews`)
       .then((res) => res.json())
-      .then((revData) => setDelreview(revData));
+      .then((revData) => setReviews(revData));
   }
 
    function deleteReview(review) {
@@ -24,20 +23,18 @@ function ReviewCard({ reviews, id }) {
       method: "DELETE",
     });
     const newReview = reviews.filter((rev) => rev.id !== review.id);
-    setDelreview(newReview);
-   
+    setReviews(newReview);
   }
 
-
-
-  const displayReviews =
-    reviews && reviews.map((review) => {
+ 
+  const displayReviews = reviews && reviews.map((review) => {
       return <div key={id} className="review-container">
             <h3><span>Username:</span> {review.username}</h3>
             <h4>{review.comment}</h4>
             <h5>Rate:{review.rating}/ 10</h5>
             <p>{review.created_at} minutes ago..</p>
-            <button className="btn btn-secondary" onClick={()=> deleteReview(review)}>Delete</button>
+            <button onClick={()=> deleteReview(review)}  className="btn btn-secondary">Delete</button>
+
             
         </div>});
 
@@ -46,15 +43,21 @@ function ReviewCard({ reviews, id }) {
   return (
     <div className="review-body">
       <div className="review-div">
-        <h1 className="review-head">Review Movie</h1>
+        <h1 className="review-head">  
+        <button className="btn-danger btn-rev">
+        <Link className="review-link"  to={"/reviews"}>
+                  <h4 >Review This Movie</h4>
+                </Link>
+                </button> 
+                </h1>
 
         <br />
         <div >
-         
-          <ReviewForm />
+      
            <h4 className="review-head">Most Recent Reviews</h4>
           
           {displayReviews}
+          
           
         </div>
       </div>
