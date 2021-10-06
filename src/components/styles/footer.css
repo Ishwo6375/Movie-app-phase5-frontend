@@ -28,6 +28,7 @@ ul {
 }
 .footer {
   background: linear-gradient(rgba(12, 11, 12, 0.7), rgba(101, 57, 172, 0.8));
+  margin-top: -30px;
 }
 
 .footer-col {

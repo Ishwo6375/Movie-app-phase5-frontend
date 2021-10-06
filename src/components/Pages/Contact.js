@@ -4,7 +4,10 @@ import emailjs from "emailjs-com";
 
 const Result = () => {
   return (
-    <h5>Your messege has been successfully sent. We will contact you soon..Thank You</h5>
+    <h5>
+      Your messege has been successfully sent. We will contact you soon..Thank
+      You
+    </h5>
   );
 };
 
@@ -30,9 +33,9 @@ function Contact() {
 
   return (
     <>
-     
       <div className="contactme" id="contact">
         <div className="contactOverlay">
+         
           <div className="container">
             <div className="form">
               <form className="form-2" onSubmit={sendEmail}>
@@ -75,6 +78,18 @@ function Contact() {
                   <div className="row">{result ? <Result /> : null}</div>
                 </div>
               </form>
+                 <div className="contact-below">
+            <h1 className="span-11">Connect with us:</h1>
+            <h5 className="span-11">For support or any questions</h5>
+            <h5 className="span-11">Email us at support@cinematrailer.com</h5>
+
+            <div >
+               <h2 className="span-11">3002 Westwood Ave (MD) </h2>
+               <h5 className="span-11">2231 Penrose Ave</h5>
+               <h5 className="span-11">(443) 708-1727</h5>
+            </div>
+          </div>
+
             </div>
           </div>
         </div>
