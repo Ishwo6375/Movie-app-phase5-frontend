@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DirectorMovieCard from "./DirectorMovieCard";
 import "../styles/DirectorDetails.css";
 
@@ -22,6 +22,10 @@ function DirectorDetails() {
                <>
 
                <div className="wrapper-1">
+                 <Link className="btn btn-info back-link" to={"/directors"}>
+            
+            <h5 >Go Back to Top Rated</h5>
+          </Link>
                    <div className="box-1">
                        <img className="dir-image" alt={"director-img"} src={director.image} />
                    <div className="box-text">

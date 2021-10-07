@@ -34,6 +34,10 @@ function MovieDetails() {
           <>
 
             <div className="wrapper">
+       <Link className="btn btn-info back-link" to={"/Movies"}>
+            
+            <h5 >Go Back to Movies</h5>
+          </Link>
               
               <div className="main_card">
                 <div className="card_left">
