@@ -52,13 +52,14 @@ function MovieDetails() {
                   <div className="card_right">
                     <div className="img_container">
                       <img alt={"movie-img"} src={movie.image} />
-                      <button className="btn btn-secondary">
+                      <button className="btn-trailer btn-secondary">
                         <a
                           className="b1"
                           href={movie.video_url}
                         >
-                          Watch Trailer
+                          Watch Trailer  <img className="watch-icon" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-0.png" alt="watch-icon" />
                         </a>
+                     
                       </button>
                        
                       <p className="time mx-5">Language:{movie.language} </p>

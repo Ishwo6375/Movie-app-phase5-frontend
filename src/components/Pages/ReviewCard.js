@@ -33,7 +33,7 @@ function ReviewCard({ reviews, id }) {
             <h4>{review.comment}</h4>
             <h5>Rate:{review.rating}/ 10</h5>
             <p>{review.created_at} minutes ago..</p>
-            <button onClick={()=> deleteReview(review)}  className="btn btn-secondary">Delete</button>
+            <button onClick={()=> deleteReview(review)}  className="btn btn-danger">Delete</button>
 
             
         </div>});

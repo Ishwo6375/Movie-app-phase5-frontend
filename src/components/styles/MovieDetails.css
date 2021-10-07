@@ -14,7 +14,7 @@ body {
 .main_card {
 	color: #fff;
 	width: 1060px;
-	height: 1060px;
+	height: 1099px;
 	margin: auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -94,15 +94,21 @@ body {
 	margin-left: -10px;
 }
 
-.btn{
+.btn-trailer{
     margin-left: 30px;
-    background: cornflowerblue;
+	padding: -40px;
+    background: linear-gradient(rgba(9, 180, 223, 0.5), rgba(255, 253, 255, 0.7));
+	border-radius: 10px;
+	margin-top: 20px;
+	
 }
 
 a:hover{
     color: greenyellow;
     
 }
+
+
 
 .movie-title{
     margin-top: 20px;
@@ -116,6 +122,17 @@ a:hover{
     url("https://wallpapercave.com/wp/24t2Yct.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.b1 img{
+ width: 120px;
+ height: 80px;
+}
+
+.b1{
+	padding-top: -20px;
+	margin: 40px;
+	margin-bottom: -20px;
 }
 
 

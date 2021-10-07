@@ -91,7 +91,7 @@ const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
                 <br />
               <button
                 onClick={() => deleteMovie(movie)}
-                className=" btn-danger">Delete</button>
+                className="btn btn-danger">Delete</button>
 
               
               </div>
