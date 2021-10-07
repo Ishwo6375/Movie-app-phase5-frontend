@@ -20,7 +20,7 @@ function ActorDetails() {
            <div>
            {actor && (
                <>
-               <div className="wrapper-1">
+               <div className="wrapper-2">
                    <div className="box-1">
                        <img className="dir-image" alt={"director-img"} src={actor.image} />
                    <div className="box-text">

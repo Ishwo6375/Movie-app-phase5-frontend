@@ -104,8 +104,11 @@ form button:hover {
 }
 
 .contact-below{
-  margin: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
- 
+  margin: 35px;
+   font-family: "popins";
+}
+
+.span-0{
+  color: #effd25;
+  font-family: "popins";
 }
