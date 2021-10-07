@@ -33,7 +33,7 @@ function Home() {
         <br />
 
         <div>
-          <Link className="btn btn-secondary" to={"/Movies"}>
+          <Link className="btn btn-primary" to={"/Movies"}>
             
             <h4 className="home-btn">Get Started it's free</h4>
           </Link>
