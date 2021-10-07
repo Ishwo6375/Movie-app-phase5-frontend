@@ -4,28 +4,23 @@ import "../styles/reviewForm.css";
 // import { useParams } from "react-router-dom";
 // import { useHistory } from "react-router";
 
-
-
 function ReviewForm() {
-     const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
-    //  const history = useHistory();
-      // const { id } = useParams();
-  
-
+  const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+  //  const history = useHistory();
+  // const { id } = useParams();
 
   const [reviewForm, setReviewForm] = useState({
-   comment: "",
-   username: "",
+    comment: "",
+    username: "",
     rating: "",
-    movie_id: ""
+    movie_id: "",
   });
 
   function onHandleChange(e) {
     setReviewForm({ ...reviewForm, [e.target.name]: e.target.value });
-
   }
 
-  //Post request to get new course
+  //Post request to get new review
 
   function onSubmitAddReviews(e) {
     e.preventDefault();
@@ -38,7 +33,7 @@ function ReviewForm() {
         comment: reviewForm.comment,
         username: reviewForm.username,
         rating: reviewForm.rating,
-        movie_id: reviewForm.movie_id
+        movie_id: reviewForm.movie_id,
       }),
     };
 
@@ -48,17 +43,14 @@ function ReviewForm() {
         const newReviews = [reviewForm, newReview];
         setReviewForm(newReviews);
         // history.push("review")
-        
       });
   }
 
   return (
     <div className="rev-container">
       <div className="rev-content">
-
         <form>
-        <h2 className="span-1">Review Movie</h2>
-         
+          <h2 className="span-6">Review Movie</h2>
 
           <div>
             <input
@@ -82,10 +74,8 @@ function ReviewForm() {
             />
           </div>
 
-         
           <div>
             <input
-             
               type="number"
               placeholder="Enter movie id"
               name="movie_id"
@@ -94,9 +84,10 @@ function ReviewForm() {
             />
           </div>
 
-            <div>
+          <div>
             <textarea
-            cols="10" rows="7"
+              cols="10"
+              rows="7"
               className="id"
               type="text"
               placeholder="Write review here..."

@@ -68,6 +68,18 @@
   display: none;   
 }
 
+ .main-nav-active {
+    color: rgb(218, 218, 5);
+   
+    transition: all 5s ease-in-out;
+}
+
+ .main-nav-active-1 {
+    color: rgb(236, 234, 234);
+    transition: all 2s ease-in-out;
+}
+
+
 @media screen and (max-width : 780px){
    .logo{
        display: flex;

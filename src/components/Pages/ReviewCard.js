@@ -30,7 +30,7 @@ function ReviewCard({ reviews, id }) {
   const displayReviews = reviews && reviews.map((review) => {
       return <div key={id} className="review-container">
             <h3><span>Username:</span> {review.username}</h3>
-            <h5>{review.comment}</h5>
+            <h>{review.comment}</h>
             <h5>Rate:{review.rating}/ 10</h5>
             <p>{review.created_at} minutes ago..</p>
             <button onClick={()=> deleteReview(review)}  className="btn btn-danger">Delete</button>
@@ -44,11 +44,11 @@ function ReviewCard({ reviews, id }) {
     <div className="review-body">
       <div className="review-div">
         <h1 className="review-head">  
-        <button className="btn-danger btn-rev">
+        
         <Link className="review-link"  to={"/reviews"}>
                   <h4 >Review This Movie</h4>
                 </Link>
-                </button> 
+                
                 </h1>
 
         <br />

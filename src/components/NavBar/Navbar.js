@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,  NavLink  } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 
@@ -19,23 +19,23 @@ function Navbar() {
         className={isMobile ? "nav-Links-mobile" : "nav-Links"}
         onClick={() => setIsMobile(false)}
       >
-        <Link to="/" className="home">
+        <NavLink to="/" className="home" activeClassName="main-nav-active-1" >
           <li>Home</li>
-        </Link>
+        </NavLink>
 
        
-        <Link to="/movies" className="contact">
+        <NavLink to="/movies" className="contact" activeClassName="main-nav-active" >
           <li> Movies</li>
-        </Link>
-        <Link to="/directors" className="contact">
+        </NavLink>
+        <NavLink to="/directors" className="contact" activeClassName="main-nav-active" >
          <li>Top Rated</li>
-        </Link>
-         <Link to="/movie/add" className="contact">
+        </NavLink>
+         <NavLink to="/movie/add" className="contact" activeClassName="main-nav-active" >
          <li> + New Movie</li>
-        </Link>
-         <Link to="/contact" className="contact">
+        </NavLink>
+         <NavLink to="/contact" className="contact" activeClassName="main-nav-active" >
           <li>Contact Us</li>
-        </Link>
+        </NavLink>
         
       </ul>
       <button
