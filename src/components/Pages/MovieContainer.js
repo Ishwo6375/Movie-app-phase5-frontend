@@ -31,11 +31,11 @@ const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
   return (
     <>
-         <form className="d-flex my-3">
+         <form className="d-flex my-2 ">
           <input
-            className="form-control "
+            className="form-control input-search"
             type="search"
-            placeholder="search Movies.."
+            placeholder="Search Movies..."
             aria-label="Search"
             onChange={(e) => {
               setSearchTerm(e.target.value);
