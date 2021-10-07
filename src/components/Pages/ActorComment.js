@@ -15,7 +15,7 @@ function ActorComment( {comments, id}) {
 
     return (
         <>
-        <h2 className="span-13">Comments</h2>
+        <h2 className="span-13">User Comments</h2>
         <div>
             { showComments }
         </div>

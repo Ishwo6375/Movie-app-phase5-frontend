@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import "../styles/reviewForm.css";
+// import { useParams } from "react-router-dom";
 // import { useHistory } from "react-router";
 
 
@@ -52,25 +53,16 @@ function ReviewForm() {
   }
 
   return (
-    <div className="container-2 ">
-      <div>
-        <h2 className="span-1">Review Movie</h2>
+    <div className="rev-container">
+      <div className="rev-content">
 
         <form>
-          <div>
-            <input
-              className="input-1"
-              type="text"
-              placeholder="Write comment here..."
-              name="comment"
-              value={reviewForm.comment}
-              onChange={onHandleChange}
-            />
-          </div>
+        <h2 className="span-1">Review Movie</h2>
+         
 
           <div>
             <input
-              className="input-1"
+              className="id"
               type="number"
               placeholder="Rate movie..."
               name="rating"
@@ -81,18 +73,19 @@ function ReviewForm() {
 
           <div>
             <input
-              className="input-1"
+              className="id"
               type="text"
-              placeholder="enter your username"
+              placeholder="Enter your username"
               name="username"
               value={reviewForm.username}
               onChange={onHandleChange}
             />
           </div>
 
+         
           <div>
             <input
-              className="input-1"
+             
               type="number"
               placeholder="Enter movie id"
               name="movie_id"
@@ -100,6 +93,19 @@ function ReviewForm() {
               onChange={onHandleChange}
             />
           </div>
+
+            <div>
+            <textarea
+            cols="10" rows="7"
+              className="id"
+              type="text"
+              placeholder="Write review here..."
+              name="comment"
+              value={reviewForm.comment}
+              onChange={onHandleChange}
+            />
+          </div>
+
           <br />
           <button onClick={onSubmitAddReviews} className="btn-5">
             Review
