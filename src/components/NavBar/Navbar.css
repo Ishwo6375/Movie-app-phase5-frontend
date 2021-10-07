@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&family=Gluten:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gemunu+Libre:wght@500;600;700;800&family=Indie+Flower&family=Monoton&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -38,11 +38,13 @@
 .signup{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size:  22px;
+    font-size:  29px;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
     font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+
 }
 
 .span-9{
