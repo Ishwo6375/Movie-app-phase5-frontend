@@ -12,6 +12,7 @@ import DirectorDetails from "./components/Pages/DirectorDetails";
 import ActorDetails from "./components/Pages/ActorDetails";
 import Footer from "./components/Pages/Footer";
 import ReviewForm from "./components/Pages/ReviewForm";
+import ActorCommentFrom from "./components/Pages/ActorCommentFrom";
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
           </Route>
           <Route exact path="/reviews">
           <ReviewForm />
+          </Route>
+           <Route exact path="/comments">
+         <ActorCommentFrom />
           </Route>
         </Switch>
       </div>

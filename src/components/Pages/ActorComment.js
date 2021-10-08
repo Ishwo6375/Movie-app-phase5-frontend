@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 
 
@@ -15,6 +16,9 @@ function ActorComment( {comments, id}) {
 
     return (
         <>
+         <Link className="review-link"  to={"/comments"}>
+                  <h4 >Add comments</h4>
+                </Link>
         <h2 className="span-13">User Comments</h2>
         <div>
             { showComments }

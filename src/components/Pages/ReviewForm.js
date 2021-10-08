@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "../styles/reviewForm.css";
+
 // import { useParams } from "react-router-dom";
 // import { useHistory } from "react-router";
 
@@ -8,6 +9,8 @@ function ReviewForm() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
   //  const history = useHistory();
   // const { id } = useParams();
+
+  const [rating, setRating] = useState(null)
 
   const [reviewForm, setReviewForm] = useState({
     comment: "",
@@ -62,6 +65,8 @@ function ReviewForm() {
               onChange={onHandleChange}
             />
           </div>
+
+
 
           <div>
             <input
