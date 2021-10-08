@@ -17,7 +17,10 @@ function ActorComment( {comments, id}) {
     return (
         <>
          <Link className="review-link"  to={"/comments"}>
-                  <h4 >Add comments</h4>
+             <button className="comment-btn">
+             Add comments
+             </button>
+                 
                 </Link>
         <h2 className="span-13">User Comments</h2>
         <div>

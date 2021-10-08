@@ -10,7 +10,7 @@ function ReviewForm() {
   //  const history = useHistory();
   // const { id } = useParams();
 
-  const [rating, setRating] = useState(null)
+ 
 
   const [reviewForm, setReviewForm] = useState({
     comment: "",

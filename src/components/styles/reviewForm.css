@@ -59,5 +59,21 @@ form textarea{
 
 }
 
+.comment-btn{
+   padding: 10px;
+   font-size: 20px;
+   color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   margin-left: 1050px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: blueviolet;
+}
+
+.comment-btn:hover{
+    color: chartreuse;
+    background-color: black;
+}
+
 
 
