@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 99px;
+    height: 89px;
     background: linear-gradient(rgba(31, 12, 202, 0.7), rgba(29, 23, 39, 0.6));
     color: rgb(251, 245, 245);
 }
@@ -38,7 +38,7 @@
 .signup{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size:  29px;
+    font-size:  22px;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;

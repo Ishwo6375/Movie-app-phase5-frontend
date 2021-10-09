@@ -31,7 +31,7 @@ function ReviewCard({ reviews, id }) {
   const displayReviews = reviews && reviews.map((review) => {
       return <div key={id} className="review-container">
             <h3><span>Username:</span> {review.username}</h3>
-            <h>{review.comment}</h>
+            <h4>{review.comment}</h4>
             <h5>Rate:{review.rating}/ 10</h5>
             <p>{review.created_at} minutes ago..</p>
             <button onClick={()=> deleteReview(review)}  className="btn btn-danger">Delete</button>

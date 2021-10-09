@@ -9,7 +9,7 @@
 }
 
 .home-content h1 {
-  margin: 30px;
+  margin: -50px;
   font-size: 20px;
   font-family: 'Yaldevi', sans-serif;
 }
@@ -31,7 +31,7 @@
 
 .span-6 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Yaldevi', sans-serif;
 }
@@ -42,7 +42,7 @@
 
 .btn h4{
   font-family: 'Yaldevi', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
    padding: 10px;
@@ -66,7 +66,7 @@
 
 .span-8 {
   color: bisque;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Yaldevi', sans-serif;
 }
 

@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: black;
+}
 
 
 
@@ -30,7 +33,7 @@ div.box{
 }
 
 .box .box-img img{
-    width: 250px;
+    width: 260px;
     height: 380px;
    
     border-radius: 10px;
@@ -115,7 +118,7 @@ div.box{
 
 .director-div{
     display: flex;
-  padding: 180px;
+  padding: 90px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -134,7 +137,7 @@ div.box{
 
 .movie-div{
     display: flex;
-  padding: 190px;
+  padding: 99px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -143,10 +146,10 @@ div.box{
   font-size: 25px;
   font-weight: bold;
   font-family: "Exo 2", sans-serif;
-  background: linear-gradient(rgba(1, 2, 1, 0.1), rgb(0, 0, 0, 1)),
-    url("http://www.designbolts.com/wp-content/uploads/2017/04/spiderman_homecoming-movie-2017-wallpaper-hd-1.jpg");
- 
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 1)),
+    url("http://hdqwalls.com/wallpapers/venom-movie-8k-41.jpg");
+   background-size: cover;
+   background-position: center;
 }
 
 
@@ -199,6 +202,7 @@ div.box{
 
 .input-search{
     font-size: 22px;
+   
     font-weight: bold;
     color: rgb(49, 36, 36);
     text-align: center;
@@ -206,8 +210,7 @@ div.box{
    
    
 }
-
-
+ 
 
 
 
