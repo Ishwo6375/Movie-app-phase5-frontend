@@ -31,7 +31,7 @@ const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
   return (
     <>
-         <form className="d-flex my-1 ">
+         <form className="d-flex ">
           <input
             className="form-control input-search"
             type="search"

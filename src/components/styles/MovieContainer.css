@@ -137,7 +137,7 @@ div.box{
 
 .movie-div{
     display: flex;
-  padding: 99px;
+  padding: 100px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -202,18 +202,13 @@ div.box{
 
 .input-search{
     font-size: 22px;
-   
-    font-weight: bold;
-    color: rgb(49, 36, 36);
+    background: gainsboro;
+    font-weight: 500;
+    color: rgb(15, 13, 13);
     text-align: center;
     border: 1px solid black;
    
    
 }
- 
-
-
-
-
 
 
