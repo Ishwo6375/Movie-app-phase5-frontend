@@ -115,7 +115,7 @@ div.box{
 
 .director-div{
     display: flex;
-  padding: 120px;
+  padding: 180px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
@@ -125,9 +125,10 @@ div.box{
   font-weight: bold;
   font-family: "Exo 2", sans-serif;
   background: linear-gradient(rgba(14, 15, 15, 0.1), rgba(19, 13, 22, 1)),
-    url("https://www.listofdownload.com/wp-content/uploads/2018/10/Aquaman-2018-DC-Comics-Movie-Wallpaper-1920x1080.jpg");
+    url("http://cdn.wallpapersafari.com/66/12/PcjWQ9.jpg");
   background-size: cover;
-  background-position: center; 
+ 
+ 
 }
 
 

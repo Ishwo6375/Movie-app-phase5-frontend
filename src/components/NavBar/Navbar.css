@@ -69,8 +69,8 @@
 }
 
  .main-nav-active {
-    color: rgb(218, 218, 5);
-    text-decoration: underline 3px  black;
+    color: rgb(243, 239, 6);
+ 
    
     transition: all 5s ease-in-out;
 }
