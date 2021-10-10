@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../styles/MovieDetails.css";
 import ReviewCard from "./ReviewCard";
+import { FaRegEdit } from "react-icons/fa";
 
 
 
@@ -36,7 +37,7 @@ function MovieDetails() {
             <div className="wrapper">
        <Link className="btn btn-info back-link" to={"/Movies"}>
             
-            <h5 >Go Back to Movies</h5>
+            <h5 className="mx-2">Go Back </h5>
           </Link>
               
               <div className="main_card">
@@ -44,9 +45,9 @@ function MovieDetails() {
                   <div className="card_details">
                     <h1 className="movie-title">{movie.title}</h1>
                     <div className="card_cat">
-                      <p className="PG">Rating:{movie.rating}</p>
-                      <p className="genre">Genre: {movie.genre} </p>
-                      <p className="time">Runtime:{movie.runtime} </p>
+                      <p className="PG">Rating:<span className="span-20"> {movie.rating}</span></p>
+                      <p className="genre">Genre: <span className="span-20"> {movie.genre} </span></p>
+                      <p className="time">Runtime:<span className="span-20"> {movie.runtime}</span> </p>
                     </div>
                     <h4 className="movie-des">Movie Description</h4>
                     <br />
@@ -74,10 +75,11 @@ function MovieDetails() {
                 <div>
                   <br />
                   <Link
-                    className="btn btn-primary mx-3"
                     to={`/movie/edit/${movie.id}`}
                   >
-                    Edit
+                
+                    <button className="btn-6"><FaRegEdit className="mx-4"/></button>
+                   
                   </Link>
                 </div>
               </div>

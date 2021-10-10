@@ -18,7 +18,7 @@ body{
 
 .box-1{
     width: 80%;
-    height: 600px;
+    height: 550px;
     display: inline-block;
     margin: 50px 10%;
     box-shadow: 0 27px 87px rgba(0,0,0,0.37) ;
@@ -34,7 +34,7 @@ body{
   background: linear-gradient(rgba(38, 42, 40, 0.5), rgb(37, 34, 34, 0.9)),
     url("https://cdn.wallpapersafari.com/85/8/sr2kC0.jpg");
      background-size: cover;
-     height: 120vw;
+     height: 140vw;
     
    
 }
@@ -43,7 +43,7 @@ body{
      background: linear-gradient(rgba(38, 42, 40, 0.5), rgb(37, 34, 34, 0.9)),
     url("https://cdn.wallpapersafari.com/85/8/sr2kC0.jpg");
      background-size: cover;
-     height: 80vw;
+     height: 100vw;
 }
 
 .dir-text{
@@ -71,7 +71,7 @@ body{
  font-size: 48px;
  font-weight: bold;
  color: #f6e9e9;
- padding: 50px;
+
  margin-bottom: 45px;
  margin-left: 30px;
 
@@ -80,7 +80,7 @@ body{
 .box-text h4 {
    font-size: 24px; 
    font-weight: 400;
-   color: #e7d20f;
+   color: #eed919;
    line-height: 30px;
    letter-spacing: 0.25px;
    margin-bottom: 15px;
@@ -97,6 +97,7 @@ body{
 
 .span-4{
     color: rgb(237, 238, 227);
+    font-size: 30px;
     padding: 10px;
     line-height: 90px;
 }

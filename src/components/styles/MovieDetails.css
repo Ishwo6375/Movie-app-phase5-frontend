@@ -142,6 +142,37 @@ a:hover{
 	
 }
 
+.btn-6{
+	text-decoration: none;
+	background-color: rgb(6, 6, 7);
+	color: rgb(236, 233, 233);
+	margin-right: 30px;
+	font-size: 20px;
+	padding: 7px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.btn-6:hover{
+	color: rgb(20, 20, 16);
+	background: rgb(169, 223, 90);
+
+}
+
+.span-20{
+ color: greenyellow;
+ 
+}
+
+.fa-search{
+	width: 40px;
+	height: 45px;
+	
+	
+	
+	
+}
+
 
 
 

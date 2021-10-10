@@ -26,7 +26,7 @@ function ActorDetails() {
             <div className="box-1">
               <img
                 className="dir-image"
-                alt={"director-img"}
+                alt={"actor-img"}
                 src={actor.image}
               />
               <div className="box-text">
@@ -36,10 +36,10 @@ function ActorDetails() {
                 </h1>
                 <h4>
                   BIO: <span className="span-3">{actor.bio}</span>
+                  <br />
+                   AGE: <span className="span-4">{actor.age} Years Old</span>
                 </h4>
-                <h4>
-                  AGE: <span className="span-4">{actor.age} Years Old</span>
-                </h4>
+                
               </div>
             </div>
 
