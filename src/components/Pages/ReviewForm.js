@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "../styles/reviewForm.css";
 
+
 // import { useParams } from "react-router-dom";
 // import { useHistory } from "react-router";
 
@@ -56,6 +57,7 @@ function ReviewForm() {
           <h2 className="span-6">Review Movie</h2>
 
           <div>
+           
             <input
               className="id"
               type="number"
