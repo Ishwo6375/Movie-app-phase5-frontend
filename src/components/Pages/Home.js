@@ -45,7 +45,7 @@ function Home() {
             <li>
               <img
                 className="partner-img"
-                src="http://www.pngmart.com/files/7/Award-Winning-PNG-File.png"
+                src="https://i1.wp.com/www.scottclifton.com/wp-content/uploads/2016/05/IMDb_logo.svg_.png?ssl=1"
                 alt="logo-1"
               />
               <img
