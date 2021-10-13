@@ -22,78 +22,77 @@ function DirectorContainer() {
 
   return (
     <>
-    <div>
-      <div className="director-div">
-        <div >
-        <h1 className="top-rated-heading">
-          <br />
-          <br />
-          <span className="span-1">Know Top Rated</span>
-            <br />
-           <span className="span-2">Directors</span>
-          <br />
-          And 
-          <br />
-
-          <span className="span-2">Actors</span>
-          <br />
-          <span className="span-1">Top Listed Directors of <span className="span-2">2021</span></span><br />
-           <span className="span-1">Top Listed Actors of <span className="span-2">2021</span></span>
-          <br />
-         
-        </h1>
-
-        </div>
-      </div>
-      <>
-        <div>
-        </div>
-        <div className="main">
-          <h2 className="dir-heading">Top Directors 2021</h2>
-          {directors.map((director, idx) => (
-            <div key={idx} className=" box">
-              <div className="box-img">
-                <img alt={"director-img"} src={director.image} />
-              </div>
-              <div className="content">
-                <h3>{director.name}</h3>
-                <h3>Age: {director.age}</h3>
-              </div>
-
-              <div className="button">
-                <button className=" btn-secondary">
-                  <Link to={`/directors/${director.id}`}>View Profile</Link>
-                </button>
-              </div>
-
+      <div>
+        <div className="director-div">
+          <div>
+            <h1 className="top-rated-heading">
               <br />
-            </div>
-          ))}
-        </div >
-        <div className="actor-div">
+              <br />
+              <span className="span-1">Know Top Rated</span>
+              <br />
+              <span className="span-2">Directors</span>
+              <br />
+              And
+              <br />
+              <span className="span-2">Actors</span>
+              <br />
+              <span className="span-1">
+                Top Listed Directors of <span className="span-2">2021</span>
+              </span>
+              <br />
+              <span className="span-1">
+                Top Listed Actors of <span className="span-2">2021</span>
+              </span>
+              <br />
+            </h1>
+          </div>
         </div>
-        <div className="main">
-          <h1 className="dir-heading">Most Searched Actors 2021</h1>
-          {actors.map((actor, idx) => (
-            <div key={idx} className=" box">
-              <div className="box-img">
-                <img alt={"actor-img"} src={actor.image} />
+        <>
+          <div></div>
+          <div className="main">
+            <h2 className="dir-heading">Top Directors 2021</h2>
+            {directors.map((director, idx) => (
+              <div key={idx} className=" box">
+                <div className="box-img">
+                  <img alt={"director-img"} src={director.image} />
+                </div>
+                <div className="content">
+                  <h3>{director.name}</h3>
+                  <h3>Age: {director.age}</h3>
+                </div>
+
+                <div className="button">
+                  <button className=" btn-secondary">
+                    <Link to={`/directors/${director.id}`}>View Profile</Link>
+                  </button>
+                </div>
+
+                <br />
               </div>
-              <div className="content">
-                <h3>{actor.name}</h3>
-                 <h5>Age:{actor.age}</h5>
+            ))}
+          </div>
+          <div className="actor-div"></div>
+          <div className="main">
+            <h1 className="dir-heading">Most Searched Actors 2021</h1>
+            {actors.map((actor, idx) => (
+              <div key={idx} className=" box">
+                <div className="box-img">
+                  <img alt={"actor-img"} src={actor.image} />
+                </div>
+                <div className="content">
+                  <h3>{actor.name}</h3>
+                  <h5>Age:{actor.age}</h5>
+                </div>
+                <div className="button">
+                  <button className=" btn-secondary">
+                    <Link to={`/actors/${actor.id}`}>View Profile</Link>
+                  </button>
+                </div>
               </div>
-              <div className="button">
-                <button className=" btn-secondary">
-                  <Link to={`/actors/${actor.id}`}>View Profile</Link>
-                </button>
-              </div>
-              
-            </div>
-          ))}
-        </div>
-      </>
-    </div>
+            ))}
+          </div>
+        </>
+      </div>
     </>
   );
 }

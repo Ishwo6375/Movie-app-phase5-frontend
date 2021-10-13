@@ -34,7 +34,6 @@ function Home() {
 
         <div>
           <Link className="btn btn-primary" to={"/Movies"}>
-            
             <h4 className="home-btn">Get Started it's free</h4>
           </Link>
         </div>
@@ -50,28 +49,28 @@ function Home() {
               />
               <img
                 className="partner-img"
-                src="http://img1.wikia.nocookie.net/__cb20140714161023/logopedia/images/9/94/DisneyChannellogo.png"
+                src="https://img1.wikia.nocookie.net/__cb20140714161023/logopedia/images/9/94/DisneyChannellogo.png"
                 alt="logo-1"
               />
               <img
                 className="partner-img"
-                src="http://steve-lovelace.com/wordpress/wp-content/uploads/2013/09/netflix-logo-in-optima-font-1024x307.png"
+                src="https://steve-lovelace.com/wordpress/wp-content/uploads/2013/09/netflix-logo-in-optima-font-1024x307.png"
                 alt="logo-1"
               />
               <img
                 className="partner-img"
-                src="http://img1.wikia.nocookie.net/__cb20111027001559/logopedia/images/1/1a/Rotten_tomatoes_logo.png"
+                src="https://img1.wikia.nocookie.net/__cb20111027001559/logopedia/images/1/1a/Rotten_tomatoes_logo.png"
                 alt="logo-1"
               />
               <img
                 className="partner-img"
-                src="http://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
+                src="https://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
                 alt="logo-1"
               />
             </li>
           </ul>
         </div>
-       
+
         <div>
           <h4 className="span-10">Up Coming Movies</h4>
           <hr />
@@ -98,33 +97,28 @@ function Home() {
                 src="https://movie.webindia123.com/movie/2016/Hollywood/December/TheMummy/poster/TheMummy2.jpg"
                 alt="logo-1"
               />
-              
+
               <img
                 className="movie-li"
                 src="https://i.pinimg.com/736x/1b/e5/1c/1be51c4ab310853644d286b9187023de.jpg"
                 alt="logo-1"
               />
 
-                <img
+              <img
                 className="movie-li"
                 src="https://tse3.mm.bing.net/th?id=OIP.S4kubhtoMWEHdXp6i09WnQHaKs&pid=Api&P=0&w=300&h=300"
                 alt="logo-1"
               />
-              
-                <img
+
+              <img
                 className="movie-li"
                 src="https://i.pinimg.com/736x/ea/f9/46/eaf94606aafbc2cf52696dfa8bc67e9d--english-movies-hollywood.jpg"
                 alt="logo-1"
               />
             </li>
-
-            
           </ul>
-          
         </div>
-        <div>
-            
-        </div>
+        <div></div>
       </div>
     </div>
   );

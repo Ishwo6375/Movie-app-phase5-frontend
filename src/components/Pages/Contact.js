@@ -35,7 +35,6 @@ function Contact() {
     <>
       <div className="contactme" id="contact">
         <div className="contactOverlay">
-         
           <div className="container">
             <div className="form">
               <form className="form-2" onSubmit={sendEmail}>
@@ -78,18 +77,24 @@ function Contact() {
                   <div className="row">{result ? <Result /> : null}</div>
                 </div>
               </form>
-                 <div className="contact-below">
-            <h1 className="span-0">Connect with us: </h1>
-            <h5 className="span-11">For support or any questions</h5>
-            <h5 className="span-11"><a  className="span-11" href="mailto: ishaan.prazapati6375@gmail.com">Email us at support@cinematrailer.com</a></h5>
+              <div className="contact-below">
+                <h1 className="span-0">Connect with us: </h1>
+                <h5 className="span-11">For support or any questions</h5>
+                <h5 className="span-11">
+                  <a
+                    className="span-11"
+                    href="mailto: ishaan.prazapati6375@gmail.com"
+                  >
+                    Email us at support@cinematrailer.com
+                  </a>
+                </h5>
 
-            <div >
-               <h2 className="span-11">3002 Westwood Ave (MD) </h2>
-               <h5 className="span-11">2231 Penrose Ave</h5>
-               <h5 className="span-11">(443) 708-1727</h5>
-            </div>
-          </div>
-
+                <div>
+                  <h2 className="span-11">3002 Westwood Ave (MD) </h2>
+                  <h5 className="span-11">2231 Penrose Ave</h5>
+                  <h5 className="span-11">(443) 708-1727</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

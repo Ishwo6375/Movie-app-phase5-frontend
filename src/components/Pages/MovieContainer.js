@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "../styles/MovieContainer.css";
 import { Link } from "react-router-dom";
-import {  FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 function MovieContainer(props) {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
- 
 
   useEffect(() => {
     showMovies();
@@ -31,9 +30,8 @@ function MovieContainer(props) {
   return (
     <>
       <form className="d-flex ">
-         <FaSearch className="fa-search"style= {{color:'black'}} />
+        <FaSearch className="fa-search" style={{ color: "black" }} />
         <input
-       
           className="form-control input-search"
           type="search"
           placeholder="Search Movies..."
@@ -41,9 +39,8 @@ function MovieContainer(props) {
           onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
-          
         />
-          <FaSearch className="fa-search"style= {{color:'black'}} />
+        <FaSearch className="fa-search" style={{ color: "black" }} />
       </form>
       <div className="movie-div">
         <h1>
@@ -68,6 +65,7 @@ function MovieContainer(props) {
       </div>
       <div className="main">
         {movies
+          // eslint-disable-next-line
           .filter((value) => {
             if (searchTerm === "") {
               return value;

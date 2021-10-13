@@ -1,48 +1,46 @@
 import React, { useState } from "react";
 
 function ActorCommentFrom() {
-    const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
+  const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
 
-    const [actorComment, setActorComment] = useState({
-        comment: "",
-        username: "",
-        actor_id: ""
-    })
+  const [actorComment, setActorComment] = useState({
+    comment: "",
+    username: "",
+    actor_id: "",
+  });
 
-    function onHandleChange(e){
-        setActorComment( { ...actorComment, [e.target.name]: e.target.value})
-    }
+  function onHandleChange(e) {
+    setActorComment({ ...actorComment, [e.target.name]: e.target.value });
+  }
 
-    function onsubmitAddComment(e) {
-         e.preventDefault();
-         const config = {
-          method: "POST",
-          headers: {
-              "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-              comment: actorComment.comment,
-              username: actorComment.username,
-              actor_id: actorComment.actor_id
-          }),   
-         };
+  function onsubmitAddComment(e) {
+    e.preventDefault();
+    const config = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        comment: actorComment.comment,
+        username: actorComment.username,
+        actor_id: actorComment.actor_id,
+      }),
+    };
 
-          fetch(`${baseURL}/comments`, config)
+    fetch(`${baseURL}/comments`, config)
       .then((res) => res.json())
       .then((newComment) => {
         const newComments = [actorComment, newComment];
         setActorComment(newComments);
-       
       });
   }
-    
-    return (
-       <div className="rev-container">
+
+  return (
+    <div className="rev-container">
       <div className="rev-content">
         <form>
           <h2 className="span-6">Add Comments</h2>
 
-        
           <div>
             <input
               className="id"
@@ -54,7 +52,7 @@ function ActorCommentFrom() {
             />
           </div>
 
-           <div>
+          <div>
             <textarea
               cols="10"
               rows="7"
@@ -77,8 +75,6 @@ function ActorCommentFrom() {
             />
           </div>
 
-         
-
           <br />
           <button onClick={onsubmitAddComment} className="btn-5">
             Submit
@@ -86,7 +82,7 @@ function ActorCommentFrom() {
         </form>
       </div>
     </div>
-    )
+  );
 }
 
-export default ActorCommentFrom
+export default ActorCommentFrom;
