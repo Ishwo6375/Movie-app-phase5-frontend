@@ -39,6 +39,9 @@ function Home() {
         </div>
         <div className="client-wrap">
           <h1>Our Official Sponsers</h1>
+          <br />
+          <br />
+          <br />
           <hr />
           <ul className="client-in">
             <li>
