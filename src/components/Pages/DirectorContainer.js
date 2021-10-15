@@ -51,7 +51,7 @@ function DirectorContainer() {
           <div></div>
           <hr />
            <hr />
-            <h1 className="dir-heading">Top Directors 2021</h1>
+            <h1 className="dir-heading">Top <span className="span-2">Directors</span> 2021</h1>
             <hr />
              <hr />
           <div className="main">
@@ -78,7 +78,7 @@ function DirectorContainer() {
 
           <hr />
            <hr />
-            <h1 className="dir-heading">Most Searched Actors 2021</h1>
+            <h1 className="dir-heading">Most Searched <span className="span-2">Actors</span> 2021</h1>
             <hr />
              <hr />
              
