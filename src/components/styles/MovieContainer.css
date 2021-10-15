@@ -163,7 +163,8 @@ div.box{
 
 
 .dir-heading{
-    color: rgb(190, 231, 6);
+    color: rgb(240, 241, 235);
+    text-align: center;
     font-size: 50px;
     font-family: 'Gemunu Libre', sans-serif;
 }
