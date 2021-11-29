@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <h3 className="logo"><img
                 className="logo-img"
-                // src="https://archive.org/download/png-movie-ticket-movie-ticket-1-950/png-movie-ticket-movie-ticket-1-950.png"
+                src="https://archive.org/download/png-movie-ticket-movie-ticket-1-950/png-movie-ticket-movie-ticket-1-950.png"
                 alt="logo-1"
               
               /> <span className="span-9">CinemaTrailers</span>.com 

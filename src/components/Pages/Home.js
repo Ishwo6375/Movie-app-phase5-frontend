@@ -67,11 +67,7 @@ function Home() {
                 src="https://img1.wikia.nocookie.net/__cb20111027001559/logopedia/images/1/1a/Rotten_tomatoes_logo.png"
                 alt="logo-1"
               />
-              <img
-                className="partner-img"
-                src="https://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
-                alt="logo-1"
-              />
+            
             </li>
           </ul>
         </div>
