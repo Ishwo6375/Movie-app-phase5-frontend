@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/MovieContainer.css";
 import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
+import MovieForm from "../Forms/MovieForm";
 
 function MovieContainer(props) {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
@@ -103,6 +104,7 @@ function MovieContainer(props) {
               </div>
 
               <br />
+              
             </div>
           ))}
       </div>

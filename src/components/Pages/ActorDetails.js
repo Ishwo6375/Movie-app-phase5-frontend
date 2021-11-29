@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import ActorComment from "./ActorComment";
+import ActorCommentFrom from "./ActorCommentFrom";
 
 function ActorDetails() {
   const baseURL = "https://phase-5-movie-app-backend.herokuapp.com/";
@@ -38,6 +39,7 @@ function ActorDetails() {
               </div>
             </div>
 
+            
             <div clasName="social">
               <ActorComment comments={actor.comments} id={id} />
             </div>

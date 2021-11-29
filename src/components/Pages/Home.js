@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css";
+import MovieContainer from "./MovieContainer";
 
 function Home() {
   return (
@@ -32,9 +33,9 @@ function Home() {
         <br />
         <br />
 
-        <div>
+        <div className="home-btn">
           <Link className="btn btn-primary" to={"/Movies"}>
-            <h4 className="home-btn">Get Started it's free</h4>
+            <h4 >Get Started it's free</h4>
           </Link>
         </div>
         <div className="client-wrap">
@@ -43,6 +44,7 @@ function Home() {
           <br />
           <br />
           <hr />
+        
           <ul className="client-in">
             <li>
               <img
@@ -73,8 +75,9 @@ function Home() {
             </li>
           </ul>
         </div>
+       
 
-        <div>
+        <div className="coming-mov">
           <h4 className="span-10">Up Coming Movies</h4>
           <hr />
 
@@ -119,6 +122,7 @@ function Home() {
                 alt="logo-1"
               />
             </li>
+     
           </ul>
         </div>
         <div></div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yaldevi:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yaldevi:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
@@ -11,7 +11,7 @@
 .home-content h1 {
   margin: -50px;
   font-size: 20px;
-  font-family: 'Yaldevi', sans-serif;
+  font-family: "Yaldevi", sans-serif;
 }
 
 .home-main {
@@ -33,41 +33,34 @@
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Yaldevi', sans-serif;
+  font-family: "Yaldevi", sans-serif;
 }
 .span-7 {
   color: rgb(240, 241, 228);
-  font-family: 'Yaldevi', sans-serif;
+  font-family: "Yaldevi", sans-serif;
 }
 
-.btn h4{
-  font-family: 'Yaldevi', sans-serif;
+.btn h4 {
+  font-family: "Yaldevi", sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: white;
-   padding: 10px;
-   
-   
+  padding: 10px;
 }
 
-.btn:hover{
+.btn:hover {
   background: #11e411;
   color: black;
 }
 
-.btn h4:hover{
+.btn h4:hover {
   color: black;
- 
 }
-
-
-
-
 
 .span-8 {
   color: bisque;
   padding: 10px;
-  font-family: 'Yaldevi', sans-serif;
+  font-family: "Yaldevi", sans-serif;
 }
 
 .partner-img {
@@ -92,7 +85,7 @@
   width: 15%;
   height: 5px;
   border: none;
-  
+
   background: #f5fafa;
   margin: auto;
   margin-bottom: 30px;
@@ -111,4 +104,47 @@
   color: white;
   text-align: center;
 }
- 
+
+@media (max-width: 500px) {
+  .home-main {
+    font-size: 20%;
+    background-image: none;
+  }
+  .home-content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .home-btn {
+    padding: 0 90px;
+  }
+
+  .home-btn h4 {
+    font-size: 15px;
+  }
+  .client-wrap h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+
+  .client-in .partner-img{
+    width: 55px;
+    height: 30px;
+  }
+
+  .coming-mov{
+     display: grid;
+    grid-template-rows:   2fr ;
+  }
+
+  .coming-mov .client-in img{
+    width: 145px;
+    height: 150px;
+   
+   
+  }
+
+  
+}

@@ -99,3 +99,10 @@ ul {
   color: rgb(255, 255, 255);
 }
 
+@media (max-width: 500px){
+  .footer{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+}

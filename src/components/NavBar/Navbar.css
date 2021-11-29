@@ -90,6 +90,14 @@
        left: 35px;
    }
 
+   .logo img{
+       width: 40px;
+   }
+
+   .navbar{
+       width: 100%;
+   }
+
    .nav-Links{
        display: none;
    }
@@ -98,7 +106,7 @@
        position: absolute;
        display: block;
        list-style: none;
-       background-color: #005469;
+       background-color: #0b1011;
        left: 0;
        top: 75px;
        transition: all 0.5s ease-out;
@@ -107,28 +115,29 @@
 
    .home,
    .contact,
-   .about,
-   .signup{
+   .about{
        color: white;
        text-align: center;
-       padding: 32px;
+       padding: 25px;
        width: 100%;
        transition: all 0.5s ease;
    }
 
-   .signup{
-       border: none;
-   }
+   
 
    .mobile-menu-icon{
       display: block; 
       position: absolute;
-      font-size: 30px;
-      color: white;
-      background-color: #00828c;
+      font-size: 20px;
+      color: rgb(233, 223, 223);
+      background-color: rgb(7, 4, 4);
       border: none;
       outline: none;
       top: 15px;
       right: 25px;
    }
+}
+
+@media (max-width: 450px) {
+
 }
