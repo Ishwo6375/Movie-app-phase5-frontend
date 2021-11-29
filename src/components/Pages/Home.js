@@ -69,7 +69,7 @@ function Home() {
               />
               <img
                 className="partner-img"
-                src="https://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
+                // src="https://static1.wikia.nocookie.net/__cb20100323110709/logopedia/images/e/e3/Fox_Moxie_Channel.png"
                 alt="logo-1"
               />
             </li>
